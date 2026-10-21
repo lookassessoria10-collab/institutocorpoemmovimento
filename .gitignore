@@ -1,0 +1,25 @@
+# dependências
+node_modules/
+
+# build
+.next/
+out/
+*.tsbuildinfo
+
+# ambiente — nunca versionar segredos do estúdio
+.env
+.env.local
+.env.*.local
+
+# dados brutos baixados das fontes anatômicas (regeneráveis pelo pipeline)
+data/raw/
+
+# vercel
+.vercel/
+
+# gravações locais acidentais
+*.webm
+*.mp4
+
+# configurações locais do Claude Code
+.claude/

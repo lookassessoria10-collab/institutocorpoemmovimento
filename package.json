@@ -1,0 +1,45 @@
+{
+  "name": "corpo-em-movimento",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Corpo em Movimento — atlas anatômico interativo e Estúdio Gilvan (Instituto Landim · Histórias de Volta)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "anatomy:fetch": "node scripts/anatomy/fetch-bodyparts3d.mjs",
+    "anatomy:build": "node scripts/anatomy/build-region-models.mjs",
+    "studio:hash-password": "node scripts/studio/hash-password.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.117.0",
+    "@react-three/fiber": "^8.17.10",
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "server-only": "^0.0.1",
+    "three": "^0.170.0",
+    "zod": "^3.23.8",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.1.1",
+    "@gltf-transform/extensions": "^4.1.1",
+    "@gltf-transform/functions": "^4.1.1",
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.170.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.35",
+    "meshoptimizer": "^0.22.0",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}

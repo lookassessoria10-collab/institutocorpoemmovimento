@@ -1,0 +1,1809 @@
+{
+  "id": "spine",
+  "region": "spine",
+  "title": "Coluna vertebral",
+  "side": "midline",
+  "file": "/anatomy/spine.c736a6aa70.glb",
+  "bytes": 1667116,
+  "sha256": "c736a6aa70cb8c31b0eff4a81c779aafd4cdb11acf754d82d8438f7711e0b4ce",
+  "sourceId": "bodyparts3d-4.0",
+  "units": "m",
+  "bounds": {
+    "min": [
+      -0.14487,
+      0.73522,
+      -0.00915
+    ],
+    "max": [
+      0.14475,
+      1.4999,
+      0.19769
+    ]
+  },
+  "focus": [
+    -0.00006,
+    1.11756,
+    0.09427
+  ],
+  "focusRadius": 0.38234,
+  "triangles": 228546,
+  "structures": [
+    {
+      "id": "atlas",
+      "sourceIds": [
+        "FMA12519",
+        "FJ3176"
+      ],
+      "nameEn": "atlas",
+      "layer": "bones",
+      "center": [
+        -0.00057,
+        1.47182,
+        0.06412
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2094,
+      "triangles": 2094
+    },
+    {
+      "id": "axis",
+      "sourceIds": [
+        "FMA12520",
+        "FJ3177"
+      ],
+      "nameEn": "axis",
+      "layer": "bones",
+      "center": [
+        -0.00069,
+        1.45576,
+        0.0616
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2288,
+      "triangles": 2288
+    },
+    {
+      "id": "third_cervical_vertebra",
+      "sourceIds": [
+        "FMA12521",
+        "FJ3161"
+      ],
+      "nameEn": "third cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00065,
+        1.43137,
+        0.06297
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2030,
+      "triangles": 2030
+    },
+    {
+      "id": "fourth_cervical_vertebra",
+      "sourceIds": [
+        "FMA12522",
+        "FJ3164"
+      ],
+      "nameEn": "fourth cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00069,
+        1.41837,
+        0.0649
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2410,
+      "triangles": 2410
+    },
+    {
+      "id": "fifth_cervical_vertebra",
+      "sourceIds": [
+        "FMA12523",
+        "FJ3167"
+      ],
+      "nameEn": "fifth cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00068,
+        1.40588,
+        0.06343
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2196,
+      "triangles": 2196
+    },
+    {
+      "id": "sixth_cervical_vertebra",
+      "sourceIds": [
+        "FMA12524",
+        "FJ3170"
+      ],
+      "nameEn": "sixth cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00066,
+        1.39316,
+        0.06043
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2374,
+      "triangles": 2374
+    },
+    {
+      "id": "seventh_cervical_vertebra",
+      "sourceIds": [
+        "FMA12525",
+        "FJ3172"
+      ],
+      "nameEn": "seventh cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00065,
+        1.37827,
+        0.05565
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1820,
+      "triangles": 1820
+    },
+    {
+      "id": "first_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9165",
+        "FJ3158"
+      ],
+      "nameEn": "first thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00073,
+        1.36206,
+        0.05198
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1700,
+      "triangles": 1700
+    },
+    {
+      "id": "second_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9187",
+        "FJ3160"
+      ],
+      "nameEn": "second thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00067,
+        1.34347,
+        0.0474
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1938,
+      "triangles": 1938
+    },
+    {
+      "id": "third_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9209",
+        "FJ3163"
+      ],
+      "nameEn": "third thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00056,
+        1.32204,
+        0.03905
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2038,
+      "triangles": 2038
+    },
+    {
+      "id": "fourth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9248",
+        "FJ3166"
+      ],
+      "nameEn": "fourth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00059,
+        1.29957,
+        0.0349
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2066,
+      "triangles": 2066
+    },
+    {
+      "id": "fifth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9922",
+        "FJ3169"
+      ],
+      "nameEn": "fifth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00063,
+        1.26852,
+        0.033
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2280,
+      "triangles": 2280
+    },
+    {
+      "id": "sixth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9945",
+        "FJ3171"
+      ],
+      "nameEn": "sixth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00069,
+        1.23923,
+        0.03321
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2248,
+      "triangles": 2248
+    },
+    {
+      "id": "seventh_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9968",
+        "FJ3173"
+      ],
+      "nameEn": "seventh thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00045,
+        1.21055,
+        0.03383
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2574,
+      "triangles": 2574
+    },
+    {
+      "id": "eighth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9991",
+        "FJ3174"
+      ],
+      "nameEn": "eighth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00075,
+        1.1834,
+        0.03648
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2424,
+      "triangles": 2424
+    },
+    {
+      "id": "ninth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA10014",
+        "FJ3175"
+      ],
+      "nameEn": "ninth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.0007,
+        1.15573,
+        0.0419
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2586,
+      "triangles": 2586
+    },
+    {
+      "id": "tenth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA10037",
+        "FJ3154"
+      ],
+      "nameEn": "tenth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00071,
+        1.12845,
+        0.04594
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2790,
+      "triangles": 2600
+    },
+    {
+      "id": "eleventh_thoracic_vertebra",
+      "sourceIds": [
+        "FMA10059",
+        "FJ3155"
+      ],
+      "nameEn": "eleventh thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.0006,
+        1.10249,
+        0.05277
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2674,
+      "triangles": 2600
+    },
+    {
+      "id": "twelfth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA10081",
+        "FJ3156"
+      ],
+      "nameEn": "twelfth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00067,
+        1.07578,
+        0.06197
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2772,
+      "triangles": 2600
+    },
+    {
+      "id": "first_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13072",
+        "FJ3157"
+      ],
+      "nameEn": "first lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00066,
+        1.04359,
+        0.06935
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2972,
+      "triangles": 2600
+    },
+    {
+      "id": "second_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13073",
+        "FJ3159"
+      ],
+      "nameEn": "second lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00065,
+        1.01604,
+        0.07453
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3214,
+      "triangles": 2600
+    },
+    {
+      "id": "third_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13074",
+        "FJ3162"
+      ],
+      "nameEn": "third lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00068,
+        0.98871,
+        0.07243
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3272,
+      "triangles": 2600
+    },
+    {
+      "id": "fourth_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13075",
+        "FJ3165"
+      ],
+      "nameEn": "fourth lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00068,
+        0.96103,
+        0.06828
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3512,
+      "triangles": 2600
+    },
+    {
+      "id": "fifth_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13076",
+        "FJ3168"
+      ],
+      "nameEn": "fifth lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00071,
+        0.92971,
+        0.05866
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3892,
+      "triangles": 2600
+    },
+    {
+      "id": "sacrum",
+      "sourceIds": [
+        "FMA16202",
+        "FJ3393"
+      ],
+      "nameEn": "sacrum",
+      "layer": "bones",
+      "center": [
+        -0.00069,
+        0.85502,
+        0.03707
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 9922,
+      "triangles": 2600
+    },
+    {
+      "id": "intervertebral_disk_of_axis",
+      "sourceIds": [
+        "FMA25058",
+        "FJ3202"
+      ],
+      "nameEn": "intervertebral disk of axis",
+      "layer": "joints",
+      "center": [
+        -0.00088,
+        1.4462,
+        0.07824
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3712,
+      "triangles": 1400
+    },
+    {
+      "id": "intervertebral_disk_of_third_cervical_vertebra",
+      "sourceIds": [
+        "FMA13896",
+        "FJ3213"
+      ],
+      "nameEn": "intervertebral disk of third cervical vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00065,
+        1.42998,
+        0.08068
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 770,
+      "triangles": 770
+    },
+    {
+      "id": "intervertebral_disk_of_fourth_cervical_vertebra",
+      "sourceIds": [
+        "FMA13897",
+        "FJ3218"
+      ],
+      "nameEn": "intervertebral disk of fourth cervical vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00066,
+        1.41402,
+        0.08275
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 926,
+      "triangles": 926
+    },
+    {
+      "id": "intervertebral_disk_of_fifth_cervical_vertebra",
+      "sourceIds": [
+        "FMA13898",
+        "FJ3219"
+      ],
+      "nameEn": "intervertebral disk of fifth cervical vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00067,
+        1.39795,
+        0.08375
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 956,
+      "triangles": 956
+    },
+    {
+      "id": "intervertebral_disk_of_sixth_cervical_vertebra",
+      "sourceIds": [
+        "FMA13899",
+        "FJ3220"
+      ],
+      "nameEn": "intervertebral disk of sixth cervical vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00074,
+        1.38196,
+        0.08191
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 892,
+      "triangles": 892
+    },
+    {
+      "id": "intervertebral_disk_of_seventh_cervical_vertebra",
+      "sourceIds": [
+        "FMA13900",
+        "FJ3221"
+      ],
+      "nameEn": "intervertebral disk of seventh cervical vertebra",
+      "layer": "joints",
+      "center": [
+        -0.0007,
+        1.36584,
+        0.07869
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1092,
+      "triangles": 1092
+    },
+    {
+      "id": "intervertebral_disk_of_first_thoracic_vertebra",
+      "sourceIds": [
+        "FMA10458",
+        "FJ3222"
+      ],
+      "nameEn": "intervertebral disk of first thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00076,
+        1.34833,
+        0.07385
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1232,
+      "triangles": 1232
+    },
+    {
+      "id": "intervertebral_disk_of_second_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13495",
+        "FJ3223"
+      ],
+      "nameEn": "intervertebral disk of second thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00065,
+        1.32818,
+        0.06681
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1374,
+      "triangles": 1374
+    },
+    {
+      "id": "intervertebral_disk_of_third_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13500",
+        "FJ3224"
+      ],
+      "nameEn": "intervertebral disk of third thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00067,
+        1.30706,
+        0.05864
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1474,
+      "triangles": 1400
+    },
+    {
+      "id": "intervertebral_disk_of_fourth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13501",
+        "FJ3203"
+      ],
+      "nameEn": "intervertebral disk of fourth thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00063,
+        1.28468,
+        0.05221
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1560,
+      "triangles": 1400
+    },
+    {
+      "id": "intervertebral_disk_of_fifth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13502",
+        "FJ3204"
+      ],
+      "nameEn": "intervertebral disk of fifth thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00065,
+        1.25975,
+        0.04943
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1836,
+      "triangles": 1398
+    },
+    {
+      "id": "intervertebral_disk_of_sixth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13503",
+        "FJ3205"
+      ],
+      "nameEn": "intervertebral disk of sixth thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00065,
+        1.23312,
+        0.0484
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2564,
+      "triangles": 1400
+    },
+    {
+      "id": "intervertebral_disk_of_seventh_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13504",
+        "FJ3206"
+      ],
+      "nameEn": "intervertebral disk of seventh thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00067,
+        1.20706,
+        0.05117
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2630,
+      "triangles": 1398
+    },
+    {
+      "id": "intervertebral_disk_of_eighth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13505",
+        "FJ3207"
+      ],
+      "nameEn": "intervertebral disk of eighth thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00066,
+        1.18205,
+        0.05628
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2894,
+      "triangles": 1382
+    },
+    {
+      "id": "intervertebral_disk_of_ninth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13506",
+        "FJ3208"
+      ],
+      "nameEn": "intervertebral disk of ninth thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00066,
+        1.15482,
+        0.06161
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2940,
+      "triangles": 1392
+    },
+    {
+      "id": "intervertebral_disk_of_tenth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13507",
+        "FJ3209"
+      ],
+      "nameEn": "intervertebral disk of tenth thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00065,
+        1.12761,
+        0.06874
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3102,
+      "triangles": 1384
+    },
+    {
+      "id": "intervertebral_disk_of_eleventh_thoracic_vertebra",
+      "sourceIds": [
+        "FMA13508",
+        "FJ3210"
+      ],
+      "nameEn": "intervertebral disk of eleventh thoracic vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00067,
+        1.09992,
+        0.077
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3336,
+      "triangles": 1392
+    },
+    {
+      "id": "intervertebral_disk",
+      "sourceIds": [
+        "FMA10446",
+        "FJ3211"
+      ],
+      "nameEn": "intervertebral disk",
+      "layer": "joints",
+      "center": [
+        -0.00065,
+        1.07019,
+        0.08546
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3476,
+      "triangles": 1398
+    },
+    {
+      "id": "intervertebral_disk_of_first_lumbar_vertebra",
+      "sourceIds": [
+        "FMA16033",
+        "FJ3212"
+      ],
+      "nameEn": "intervertebral disk of first lumbar vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00065,
+        1.04057,
+        0.09342
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3498,
+      "triangles": 1378
+    },
+    {
+      "id": "intervertebral_disk_of_second_lumbar_vertebra",
+      "sourceIds": [
+        "FMA16034",
+        "FJ3214"
+      ],
+      "nameEn": "intervertebral disk of second lumbar vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00066,
+        1.00684,
+        0.09706
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3406,
+      "triangles": 1394
+    },
+    {
+      "id": "intervertebral_disk_of_third_lumbar_vertebra",
+      "sourceIds": [
+        "FMA16035",
+        "FJ3215"
+      ],
+      "nameEn": "intervertebral disk of third lumbar vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00065,
+        0.972,
+        0.09372
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3454,
+      "triangles": 1394
+    },
+    {
+      "id": "intervertebral_disk_of_fourth_lumbar_vertebra",
+      "sourceIds": [
+        "FMA16036",
+        "FJ3216"
+      ],
+      "nameEn": "intervertebral disk of fourth lumbar vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00068,
+        0.94211,
+        0.08351
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3512,
+      "triangles": 1390
+    },
+    {
+      "id": "intervertebral_disk_of_fifth_lumbar_vertebra",
+      "sourceIds": [
+        "FMA16037",
+        "FJ3217"
+      ],
+      "nameEn": "intervertebral disk of fifth lumbar vertebra",
+      "layer": "joints",
+      "center": [
+        -0.00068,
+        0.9093,
+        0.07251
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3498,
+      "triangles": 1400
+    },
+    {
+      "id": "right_hip_bone",
+      "sourceIds": [
+        "FMA16586",
+        "FJ3152"
+      ],
+      "nameEn": "right hip bone",
+      "layer": "bones",
+      "center": [
+        -0.07383,
+        0.85501,
+        0.07007
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2374,
+      "triangles": 2374
+    },
+    {
+      "id": "left_hip_bone",
+      "sourceIds": [
+        "FMA16587",
+        "FJ3288"
+      ],
+      "nameEn": "left hip bone",
+      "layer": "bones",
+      "center": [
+        0.07375,
+        0.85502,
+        0.0702
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2332,
+      "triangles": 2332
+    },
+    {
+      "id": "right_first_rib",
+      "sourceIds": [
+        "FMA7857",
+        "FJ3334"
+      ],
+      "nameEn": "right first rib",
+      "layer": "bones",
+      "center": [
+        -0.04244,
+        1.34027,
+        0.09742
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3276,
+      "triangles": 2600
+    },
+    {
+      "id": "right_second_rib",
+      "sourceIds": [
+        "FMA7882",
+        "FJ3336"
+      ],
+      "nameEn": "right second rib",
+      "layer": "bones",
+      "center": [
+        -0.05651,
+        1.31629,
+        0.1089
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 5594,
+      "triangles": 2600
+    },
+    {
+      "id": "right_third_rib",
+      "sourceIds": [
+        "FMA7909",
+        "FJ3338"
+      ],
+      "nameEn": "right third rib",
+      "layer": "bones",
+      "center": [
+        -0.06149,
+        1.28989,
+        0.10805
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 7254,
+      "triangles": 2600
+    },
+    {
+      "id": "right_fourth_rib",
+      "sourceIds": [
+        "FMA7957",
+        "FJ3340"
+      ],
+      "nameEn": "right fourth rib",
+      "layer": "bones",
+      "center": [
+        -0.0663,
+        1.26323,
+        0.10769
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 8832,
+      "triangles": 2598
+    },
+    {
+      "id": "right_fifth_rib",
+      "sourceIds": [
+        "FMA8066",
+        "FJ3342"
+      ],
+      "nameEn": "right fifth rib",
+      "layer": "bones",
+      "center": [
+        -0.0712,
+        1.23174,
+        0.10519
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 9710,
+      "triangles": 2600
+    },
+    {
+      "id": "right_sixth_rib",
+      "sourceIds": [
+        "FMA8175",
+        "FJ3344"
+      ],
+      "nameEn": "right sixth rib",
+      "layer": "bones",
+      "center": [
+        -0.07459,
+        1.2018,
+        0.09857
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 10246,
+      "triangles": 2600
+    },
+    {
+      "id": "right_seventh_rib",
+      "sourceIds": [
+        "FMA8229",
+        "FJ3346"
+      ],
+      "nameEn": "right seventh rib",
+      "layer": "bones",
+      "center": [
+        -0.07539,
+        1.17273,
+        0.09234
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 10032,
+      "triangles": 2598
+    },
+    {
+      "id": "right_eighth_rib",
+      "sourceIds": [
+        "FMA8283",
+        "FJ3347"
+      ],
+      "nameEn": "right eighth rib",
+      "layer": "bones",
+      "center": [
+        -0.07332,
+        1.14299,
+        0.08362
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 8336,
+      "triangles": 2600
+    },
+    {
+      "id": "right_ninth_rib",
+      "sourceIds": [
+        "FMA8364",
+        "FJ3348"
+      ],
+      "nameEn": "right ninth rib",
+      "layer": "bones",
+      "center": [
+        -0.07248,
+        1.11773,
+        0.07158
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 7576,
+      "triangles": 2600
+    },
+    {
+      "id": "right_tenth_rib",
+      "sourceIds": [
+        "FMA8445",
+        "FJ3330"
+      ],
+      "nameEn": "right tenth rib",
+      "layer": "bones",
+      "center": [
+        -0.07026,
+        1.09098,
+        0.06452
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 6820,
+      "triangles": 2600
+    },
+    {
+      "id": "right_eleventh_rib",
+      "sourceIds": [
+        "FMA8531",
+        "FJ3331"
+      ],
+      "nameEn": "right eleventh rib",
+      "layer": "bones",
+      "center": [
+        -0.06447,
+        1.0649,
+        0.05699
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 4866,
+      "triangles": 2600
+    },
+    {
+      "id": "right_twelfth_rib",
+      "sourceIds": [
+        "FMA8533",
+        "FJ3332"
+      ],
+      "nameEn": "right twelfth rib",
+      "layer": "bones",
+      "center": [
+        -0.05237,
+        1.05026,
+        0.04704
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2818,
+      "triangles": 2600
+    },
+    {
+      "id": "left_first_rib",
+      "sourceIds": [
+        "FMA7987",
+        "FJ3228"
+      ],
+      "nameEn": "left first rib",
+      "layer": "bones",
+      "center": [
+        0.04113,
+        1.34027,
+        0.09742
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3276,
+      "triangles": 2600
+    },
+    {
+      "id": "left_second_rib",
+      "sourceIds": [
+        "FMA8012",
+        "FJ3229"
+      ],
+      "nameEn": "left second rib",
+      "layer": "bones",
+      "center": [
+        0.0552,
+        1.31627,
+        0.10889
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 5594,
+      "triangles": 2600
+    },
+    {
+      "id": "left_third_rib",
+      "sourceIds": [
+        "FMA8039",
+        "FJ3230"
+      ],
+      "nameEn": "left third rib",
+      "layer": "bones",
+      "center": [
+        0.06018,
+        1.28991,
+        0.10806
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 7254,
+      "triangles": 2600
+    },
+    {
+      "id": "left_fourth_rib",
+      "sourceIds": [
+        "FMA8148",
+        "FJ3231"
+      ],
+      "nameEn": "left fourth rib",
+      "layer": "bones",
+      "center": [
+        0.06459,
+        1.26323,
+        0.10769
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 8850,
+      "triangles": 2600
+    },
+    {
+      "id": "left_fifth_rib",
+      "sourceIds": [
+        "FMA8093",
+        "FJ3232"
+      ],
+      "nameEn": "left fifth rib",
+      "layer": "bones",
+      "center": [
+        0.06989,
+        1.23175,
+        0.10521
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 9710,
+      "triangles": 2600
+    },
+    {
+      "id": "left_sixth_rib",
+      "sourceIds": [
+        "FMA8202",
+        "FJ3233"
+      ],
+      "nameEn": "left sixth rib",
+      "layer": "bones",
+      "center": [
+        0.07291,
+        1.20236,
+        0.09857
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 10264,
+      "triangles": 2600
+    },
+    {
+      "id": "left_seventh_rib",
+      "sourceIds": [
+        "FMA8256",
+        "FJ3234"
+      ],
+      "nameEn": "left seventh rib",
+      "layer": "bones",
+      "center": [
+        0.07408,
+        1.17272,
+        0.09235
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 10032,
+      "triangles": 2598
+    },
+    {
+      "id": "left_eighth_rib",
+      "sourceIds": [
+        "FMA8310",
+        "FJ3235"
+      ],
+      "nameEn": "left eighth rib",
+      "layer": "bones",
+      "center": [
+        0.072,
+        1.14299,
+        0.08362
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 8336,
+      "triangles": 2600
+    },
+    {
+      "id": "left_ninth_rib",
+      "sourceIds": [
+        "FMA8391",
+        "FJ3236"
+      ],
+      "nameEn": "left ninth rib",
+      "layer": "bones",
+      "center": [
+        0.07117,
+        1.11772,
+        0.07156
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 7576,
+      "triangles": 2600
+    },
+    {
+      "id": "left_tenth_rib",
+      "sourceIds": [
+        "FMA8472",
+        "FJ3225"
+      ],
+      "nameEn": "left tenth rib",
+      "layer": "bones",
+      "center": [
+        0.06896,
+        1.09097,
+        0.06453
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 6826,
+      "triangles": 2600
+    },
+    {
+      "id": "left_eleventh_rib",
+      "sourceIds": [
+        "FMA8532",
+        "FJ3226"
+      ],
+      "nameEn": "left eleventh rib",
+      "layer": "bones",
+      "center": [
+        0.06317,
+        1.0649,
+        0.05699
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 4866,
+      "triangles": 2600
+    },
+    {
+      "id": "left_twelfth_rib",
+      "sourceIds": [
+        "FMA8534",
+        "FJ3227"
+      ],
+      "nameEn": "left twelfth rib",
+      "layer": "bones",
+      "center": [
+        0.05106,
+        1.05024,
+        0.04704
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2818,
+      "triangles": 2600
+    },
+    {
+      "id": "right_iliocostalis_lumborum",
+      "sourceIds": [
+        "FMA22740",
+        "FJ1527"
+      ],
+      "nameEn": "right iliocostalis lumborum",
+      "layer": "muscles",
+      "center": [
+        -0.0537,
+        1.03448,
+        0.01321
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 15872,
+      "triangles": 3200
+    },
+    {
+      "id": "right_iliocostalis_thoracis",
+      "sourceIds": [
+        "FMA22742",
+        "FJ1528"
+      ],
+      "nameEn": "right iliocostalis thoracis",
+      "layer": "muscles",
+      "center": [
+        -0.06693,
+        1.20881,
+        0.03733
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 8386,
+      "triangles": 3194
+    },
+    {
+      "id": "right_iliocostalis_cervicis",
+      "sourceIds": [
+        "FMA22744",
+        "FJ1526"
+      ],
+      "nameEn": "right iliocostalis cervicis",
+      "layer": "muscles",
+      "center": [
+        -0.04793,
+        1.32974,
+        0.04343
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3072,
+      "triangles": 3072
+    },
+    {
+      "id": "right_longissimus_thoracis",
+      "sourceIds": [
+        "FMA22751",
+        "FJ1535"
+      ],
+      "nameEn": "right longissimus thoracis",
+      "layer": "muscles",
+      "center": [
+        -0.03404,
+        1.10972,
+        0.0336
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 15068,
+      "triangles": 3188
+    },
+    {
+      "id": "right_longissimus_cervicis",
+      "sourceIds": [
+        "FMA22757",
+        "FJ1534"
+      ],
+      "nameEn": "right longissimus cervicis",
+      "layer": "muscles",
+      "center": [
+        -0.02984,
+        1.34975,
+        0.04641
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2816,
+      "triangles": 2816
+    },
+    {
+      "id": "right_longissimus_capitis",
+      "sourceIds": [
+        "FMA22754",
+        "FJ1533"
+      ],
+      "nameEn": "right longissimus capitis",
+      "layer": "muscles",
+      "center": [
+        -0.04229,
+        1.41727,
+        0.05706
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2260,
+      "triangles": 2260
+    },
+    {
+      "id": "right_spinalis_thoracis",
+      "sourceIds": [
+        "FMA22779",
+        "FJ1544"
+      ],
+      "nameEn": "right spinalis thoracis",
+      "layer": "muscles",
+      "center": [
+        -0.00487,
+        1.15452,
+        0.02055
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 7422,
+      "triangles": 3198
+    },
+    {
+      "id": "right_semispinalis_thoracis",
+      "sourceIds": [
+        "FMA22872",
+        "FJ1540"
+      ],
+      "nameEn": "right semispinalis thoracis",
+      "layer": "muscles",
+      "center": [
+        -0.01595,
+        1.22013,
+        0.02331
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 5176,
+      "triangles": 3196
+    },
+    {
+      "id": "right_semispinalis_cervicis",
+      "sourceIds": [
+        "FMA22874",
+        "FJ1539"
+      ],
+      "nameEn": "right semispinalis cervicis",
+      "layer": "muscles",
+      "center": [
+        -0.01437,
+        1.3556,
+        0.04159
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3406,
+      "triangles": 3200
+    },
+    {
+      "id": "right_semispinalis_capitis",
+      "sourceIds": [
+        "FMA22876",
+        "FJ1538"
+      ],
+      "nameEn": "right semispinalis capitis",
+      "layer": "muscles",
+      "center": [
+        -0.02342,
+        1.43494,
+        0.04169
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1912,
+      "triangles": 1912
+    },
+    {
+      "id": "right_psoas_major",
+      "sourceIds": [
+        "FMA22342",
+        "FJ1431"
+      ],
+      "nameEn": "right psoas major",
+      "layer": "muscles",
+      "center": [
+        -0.06062,
+        0.91698,
+        0.08635
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 4900,
+      "triangles": 3200
+    },
+    {
+      "id": "left_iliocostalis_lumborum",
+      "sourceIds": [
+        "FMA22741",
+        "FJ1527M"
+      ],
+      "nameEn": "left iliocostalis lumborum",
+      "layer": "muscles",
+      "center": [
+        0.0537,
+        1.03448,
+        0.01321
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 15872,
+      "triangles": 3200
+    },
+    {
+      "id": "left_iliocostalis_thoracis",
+      "sourceIds": [
+        "FMA22743",
+        "FJ1528M"
+      ],
+      "nameEn": "left iliocostalis thoracis",
+      "layer": "muscles",
+      "center": [
+        0.06693,
+        1.20881,
+        0.03733
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 8386,
+      "triangles": 3200
+    },
+    {
+      "id": "left_iliocostalis_cervicis",
+      "sourceIds": [
+        "FMA22745",
+        "FJ1526M"
+      ],
+      "nameEn": "left iliocostalis cervicis",
+      "layer": "muscles",
+      "center": [
+        0.04793,
+        1.32974,
+        0.04343
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3072,
+      "triangles": 3072
+    },
+    {
+      "id": "left_longissimus_thoracis",
+      "sourceIds": [
+        "FMA22753",
+        "FJ1535M"
+      ],
+      "nameEn": "left longissimus thoracis",
+      "layer": "muscles",
+      "center": [
+        0.03404,
+        1.10972,
+        0.0336
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 15068,
+      "triangles": 3182
+    },
+    {
+      "id": "left_longissimus_cervicis",
+      "sourceIds": [
+        "FMA22758",
+        "FJ1534M"
+      ],
+      "nameEn": "left longissimus cervicis",
+      "layer": "muscles",
+      "center": [
+        0.02984,
+        1.34975,
+        0.04641
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2816,
+      "triangles": 2816
+    },
+    {
+      "id": "left_longissimus_capitis",
+      "sourceIds": [
+        "FMA22756",
+        "FJ1533M"
+      ],
+      "nameEn": "left longissimus capitis",
+      "layer": "muscles",
+      "center": [
+        0.04229,
+        1.41727,
+        0.05706
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2260,
+      "triangles": 2260
+    },
+    {
+      "id": "left_spinalis_thoracis",
+      "sourceIds": [
+        "FMA22780",
+        "FJ1544M"
+      ],
+      "nameEn": "left spinalis thoracis",
+      "layer": "muscles",
+      "center": [
+        0.00487,
+        1.15452,
+        0.02055
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 7422,
+      "triangles": 3198
+    },
+    {
+      "id": "left_semispinalis_thoracis",
+      "sourceIds": [
+        "FMA22873",
+        "FJ1540M"
+      ],
+      "nameEn": "left semispinalis thoracis",
+      "layer": "muscles",
+      "center": [
+        0.01595,
+        1.22013,
+        0.02331
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 5176,
+      "triangles": 3198
+    },
+    {
+      "id": "left_semispinalis_cervicis",
+      "sourceIds": [
+        "FMA22875",
+        "FJ1539M"
+      ],
+      "nameEn": "left semispinalis cervicis",
+      "layer": "muscles",
+      "center": [
+        0.01437,
+        1.3556,
+        0.04159
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 3406,
+      "triangles": 3200
+    },
+    {
+      "id": "left_semispinalis_capitis",
+      "sourceIds": [
+        "FMA22877",
+        "FJ1538M"
+      ],
+      "nameEn": "left semispinalis capitis",
+      "layer": "muscles",
+      "center": [
+        0.02342,
+        1.43494,
+        0.04169
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1912,
+      "triangles": 1912
+    },
+    {
+      "id": "left_psoas_major",
+      "sourceIds": [
+        "FMA22343",
+        "FJ1431M"
+      ],
+      "nameEn": "left psoas major",
+      "layer": "muscles",
+      "center": [
+        0.06062,
+        0.91698,
+        0.08635
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 4900,
+      "triangles": 3200
+    },
+    {
+      "id": "set_of_interspinales_lumborum__right_side",
+      "sourceIds": [
+        "FMA71307",
+        "FJ1550"
+      ],
+      "nameEn": "set of interspinales lumborum",
+      "layer": "muscles",
+      "center": [
+        -0.00172,
+        0.98064,
+        0.0377
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 774,
+      "triangles": 774
+    },
+    {
+      "id": "set_of_interspinales_lumborum__left_side",
+      "sourceIds": [
+        "FMA71307",
+        "FJ1550M"
+      ],
+      "nameEn": "set of interspinales lumborum",
+      "layer": "muscles",
+      "center": [
+        0.00172,
+        0.98064,
+        0.0377
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 774,
+      "triangles": 774
+    },
+    {
+      "id": "right_interspinalis_thoracis",
+      "sourceIds": [
+        "FMA22890",
+        "FJ1551"
+      ],
+      "nameEn": "right interspinalis thoracis",
+      "layer": "muscles",
+      "center": [
+        -0.00301,
+        1.32833,
+        0.01437
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 410,
+      "triangles": 410
+    },
+    {
+      "id": "left_interspinalis_thoracis",
+      "sourceIds": [
+        "FMA22891",
+        "FJ1551M"
+      ],
+      "nameEn": "left interspinalis thoracis",
+      "layer": "muscles",
+      "center": [
+        0.00301,
+        1.32833,
+        0.01437
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 410,
+      "triangles": 410
+    },
+    {
+      "id": "lateral_lumbar_intertransversarius__right_side",
+      "sourceIds": [
+        "FMA22850",
+        "FJ1547"
+      ],
+      "nameEn": "lateral lumbar intertransversarius",
+      "layer": "muscles",
+      "center": [
+        -0.03281,
+        1.0153,
+        0.05597
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1362,
+      "triangles": 1362
+    },
+    {
+      "id": "lateral_lumbar_intertransversarius__left_side",
+      "sourceIds": [
+        "FMA22850",
+        "FJ1547M"
+      ],
+      "nameEn": "lateral lumbar intertransversarius",
+      "layer": "muscles",
+      "center": [
+        0.03281,
+        1.0153,
+        0.05597
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1362,
+      "triangles": 1362
+    },
+    {
+      "id": "medial_lumbar_intertransversarius__right_side",
+      "sourceIds": [
+        "FMA22851",
+        "FJ1548"
+      ],
+      "nameEn": "medial lumbar intertransversarius",
+      "layer": "muscles",
+      "center": [
+        -0.03369,
+        0.99501,
+        0.06499
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1736,
+      "triangles": 1736
+    },
+    {
+      "id": "medial_lumbar_intertransversarius__left_side",
+      "sourceIds": [
+        "FMA22851",
+        "FJ1548M"
+      ],
+      "nameEn": "medial lumbar intertransversarius",
+      "layer": "muscles",
+      "center": [
+        0.03369,
+        0.99501,
+        0.06499
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1736,
+      "triangles": 1736
+    }
+  ],
+  "joints": [],
+  "limitations": [
+    "Acervo BodyParts3D 4.0: um único corpo de referência (adulto masculino), não representa variações individuais.",
+    "Sem texturas na fonte: as cores são convenções educativas por camada.",
+    "Músculos e pele são superfícies estáticas: não se deformam durante os movimentos.",
+    "O disco entre T12 e L1 aparece na fonte apenas como \"intervertebral disk\" (FJ3211), sem nível; a posição foi conferida pela geometria.",
+    "A fonte não inclui os ligamentos da coluna; multífido e quadrado lombar não constam no acervo IS-A 4.0."
+  ],
+  "generatedAt": "2026-10-21T04:20:14.260Z"
+}

@@ -1,0 +1,685 @@
+{
+  "id": "knee-right",
+  "region": "knee",
+  "title": "Joelho direito (coxa e perna)",
+  "side": "right",
+  "file": "/anatomy/knee-right.48f41adaca.glb",
+  "bytes": 718496,
+  "sha256": "48f41adacad74123121f28e5b5ccc8cba6001276a0a5afb87b58e60e646b606b",
+  "sourceId": "bodyparts3d-4.0",
+  "units": "m",
+  "bounds": {
+    "min": [
+      -0.16607,
+      -0.06706,
+      -0.00725
+    ],
+    "max": [
+      0.14475,
+      0.95809,
+      0.22366
+    ]
+  },
+  "focus": [
+    -0.07233,
+    0.39889,
+    0.07318
+  ],
+  "focusRadius": 0.51258,
+  "triangles": 106084,
+  "structures": [
+    {
+      "id": "right_femur",
+      "sourceIds": [
+        "FMA24474",
+        "FJ3365"
+      ],
+      "nameEn": "right femur",
+      "layer": "bones",
+      "segment": "coxa",
+      "center": [
+        -0.09101,
+        0.6012,
+        0.08086
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 3102,
+      "triangles": 3102
+    },
+    {
+      "id": "right_patella",
+      "sourceIds": [
+        "FMA24486",
+        "FJ3381"
+      ],
+      "nameEn": "right patella",
+      "layer": "bones",
+      "segment": "patela",
+      "center": [
+        -0.08145,
+        0.38114,
+        0.11186
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 306,
+      "triangles": 306
+    },
+    {
+      "id": "right_tibia",
+      "sourceIds": [
+        "FMA24477",
+        "FJ3387"
+      ],
+      "nameEn": "right tibia",
+      "layer": "bones",
+      "segment": "perna",
+      "center": [
+        -0.07228,
+        0.18394,
+        0.08345
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1664,
+      "triangles": 1664
+    },
+    {
+      "id": "right_fibula",
+      "sourceIds": [
+        "FMA24480",
+        "FJ3366"
+      ],
+      "nameEn": "right fibula",
+      "layer": "bones",
+      "segment": "perna",
+      "center": [
+        -0.10225,
+        0.16694,
+        0.06333
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1142,
+      "triangles": 1142
+    },
+    {
+      "id": "right_hip_bone",
+      "sourceIds": [
+        "FMA16586",
+        "FJ3152"
+      ],
+      "nameEn": "right hip bone",
+      "layer": "bones",
+      "center": [
+        -0.07383,
+        0.85501,
+        0.07007
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2374,
+      "triangles": 2374
+    },
+    {
+      "id": "left_hip_bone",
+      "sourceIds": [
+        "FMA16587",
+        "FJ3288"
+      ],
+      "nameEn": "left hip bone",
+      "layer": "bones",
+      "center": [
+        0.07375,
+        0.85502,
+        0.0702
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 2332,
+      "triangles": 2332
+    },
+    {
+      "id": "sacrum",
+      "sourceIds": [
+        "FMA16202",
+        "FJ3393"
+      ],
+      "nameEn": "sacrum",
+      "layer": "bones",
+      "center": [
+        -0.00069,
+        0.85502,
+        0.03707
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 9922,
+      "triangles": 9922
+    },
+    {
+      "id": "right_rectus_femoris",
+      "sourceIds": [
+        "FMA38928",
+        "FJ1433"
+      ],
+      "nameEn": "right rectus femoris",
+      "layer": "muscles",
+      "center": [
+        -0.10868,
+        0.59291,
+        0.11818
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 5688,
+      "triangles": 5688
+    },
+    {
+      "id": "right_vastus_lateralis",
+      "sourceIds": [
+        "FMA38930",
+        "FJ1442"
+      ],
+      "nameEn": "right vastus lateralis",
+      "layer": "muscles",
+      "center": [
+        -0.12184,
+        0.55305,
+        0.09728
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 6688,
+      "triangles": 6688
+    },
+    {
+      "id": "right_vastus_medialis",
+      "sourceIds": [
+        "FMA38932",
+        "FJ1443"
+      ],
+      "nameEn": "right vastus medialis",
+      "layer": "muscles",
+      "center": [
+        -0.07027,
+        0.53936,
+        0.11802
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 4552,
+      "triangles": 4552
+    },
+    {
+      "id": "right_vastus_intermedius",
+      "sourceIds": [
+        "FMA38934",
+        "FJ1441"
+      ],
+      "nameEn": "right vastus intermedius",
+      "layer": "muscles",
+      "center": [
+        -0.10465,
+        0.55611,
+        0.1057
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 4260,
+      "triangles": 4260
+    },
+    {
+      "id": "long_head_of_right_biceps_femoris",
+      "sourceIds": [
+        "FMA45888",
+        "FJ1395"
+      ],
+      "nameEn": "long head of right biceps femoris",
+      "layer": "muscles",
+      "center": [
+        -0.08767,
+        0.54633,
+        0.04525
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 5110,
+      "triangles": 5110
+    },
+    {
+      "id": "short_head_of_right_biceps_femoris",
+      "sourceIds": [
+        "FMA45891",
+        "FJ1444"
+      ],
+      "nameEn": "short head of right biceps femoris",
+      "layer": "muscles",
+      "center": [
+        -0.09904,
+        0.4874,
+        0.06918
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1728,
+      "triangles": 1728
+    },
+    {
+      "id": "right_semitendinosus",
+      "sourceIds": [
+        "FMA22358",
+        "FJ1436"
+      ],
+      "nameEn": "right semitendinosus",
+      "layer": "muscles",
+      "center": [
+        -0.04761,
+        0.52341,
+        0.06168
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 2712,
+      "triangles": 2712
+    },
+    {
+      "id": "right_semimembranosus",
+      "sourceIds": [
+        "FMA22448",
+        "FJ1435"
+      ],
+      "nameEn": "right semimembranosus",
+      "layer": "muscles",
+      "center": [
+        -0.04209,
+        0.53518,
+        0.07041
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 4612,
+      "triangles": 4612
+    },
+    {
+      "id": "right_sartorius",
+      "sourceIds": [
+        "FMA22354",
+        "FJ1434"
+      ],
+      "nameEn": "right sartorius",
+      "layer": "muscles",
+      "center": [
+        -0.07592,
+        0.58799,
+        0.11247
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 3444,
+      "triangles": 3444
+    },
+    {
+      "id": "right_gracilis",
+      "sourceIds": [
+        "FMA43883",
+        "FJ1421"
+      ],
+      "nameEn": "right gracilis",
+      "layer": "muscles",
+      "center": [
+        -0.04124,
+        0.54029,
+        0.09894
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 3172,
+      "triangles": 3172
+    },
+    {
+      "id": "lateral_head_of_right_gastrocnemius",
+      "sourceIds": [
+        "FMA45960",
+        "FJ1394"
+      ],
+      "nameEn": "lateral head of right gastrocnemius",
+      "layer": "muscles",
+      "center": [
+        -0.08908,
+        0.27803,
+        0.04323
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 3052,
+      "triangles": 3052
+    },
+    {
+      "id": "medial_head_of_right_gastrocnemius",
+      "sourceIds": [
+        "FMA45957",
+        "FJ1397"
+      ],
+      "nameEn": "medial head of right gastrocnemius",
+      "layer": "muscles",
+      "center": [
+        -0.048,
+        0.27747,
+        0.05318
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 3842,
+      "triangles": 3842
+    },
+    {
+      "id": "right_popliteus",
+      "sourceIds": [
+        "FMA22591",
+        "FJ1430"
+      ],
+      "nameEn": "right popliteus",
+      "layer": "muscles",
+      "center": [
+        -0.08306,
+        0.33427,
+        0.07042
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 858,
+      "triangles": 858
+    },
+    {
+      "id": "right_plantaris",
+      "sourceIds": [
+        "FMA22560",
+        "FJ1429"
+      ],
+      "nameEn": "right plantaris",
+      "layer": "muscles",
+      "center": [
+        -0.06983,
+        0.20133,
+        0.06723
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 2512,
+      "triangles": 2512
+    },
+    {
+      "id": "right_soleus",
+      "sourceIds": [
+        "FMA22558",
+        "FJ1437"
+      ],
+      "nameEn": "right soleus",
+      "layer": "muscles",
+      "center": [
+        -0.07569,
+        0.19554,
+        0.06166
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 4418,
+      "triangles": 4418
+    },
+    {
+      "id": "right_tibialis_anterior",
+      "sourceIds": [
+        "FMA22544",
+        "FJ1439"
+      ],
+      "nameEn": "right tibialis anterior",
+      "layer": "muscles",
+      "center": [
+        -0.09187,
+        0.15823,
+        0.11121
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 2510,
+      "triangles": 2510
+    },
+    {
+      "id": "right_fibularis_longus",
+      "sourceIds": [
+        "FMA22552",
+        "FJ1410"
+      ],
+      "nameEn": "right fibularis longus",
+      "layer": "muscles",
+      "center": [
+        -0.10442,
+        0.14948,
+        0.08866
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 3860,
+      "triangles": 3860
+    },
+    {
+      "id": "right_extensor_digitorum_longus",
+      "sourceIds": [
+        "FMA22548",
+        "FJ1406"
+      ],
+      "nameEn": "right extensor digitorum longus",
+      "layer": "muscles",
+      "center": [
+        -0.12771,
+        0.14615,
+        0.14099
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 4546,
+      "triangles": 4546
+    },
+    {
+      "id": "right_tensor_fasciae_latae",
+      "sourceIds": [
+        "FMA22425",
+        "FJ1438"
+      ],
+      "nameEn": "right tensor fasciae latae",
+      "layer": "muscles",
+      "center": [
+        -0.14412,
+        0.83928,
+        0.11359
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 1254,
+      "triangles": 1254
+    },
+    {
+      "id": "right_iliotibial_tract",
+      "sourceIds": [
+        "FMA58776",
+        "FJ1423"
+      ],
+      "nameEn": "right iliotibial tract",
+      "layer": "tendons",
+      "center": [
+        -0.12716,
+        0.62972,
+        0.073
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 17172,
+      "triangles": 4998
+    },
+    {
+      "id": "skin",
+      "sourceIds": [
+        "FMA7163",
+        "FJ2810"
+      ],
+      "nameEn": "skin",
+      "layer": "skin",
+      "center": [
+        -0.09412,
+        0.32236,
+        0.1113
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 11426,
+      "triangles": 11426
+    }
+  ],
+  "joints": [
+    {
+      "id": "knee-tea",
+      "origin": [
+        -0.07233,
+        0.39889,
+        0.07318
+      ],
+      "axis": [
+        0.992804,
+        0.077123,
+        -0.091614
+      ],
+      "method": "Eixo transepicondilar: pontos mais proeminentes medial e lateral do fêmur distal (12% inferiores do comprimento), calculados na malha original do BodyParts3D.",
+      "landmarks": {
+        "medialEpicondyle": [
+          -0.03189,
+          0.40203,
+          0.06945
+        ],
+        "lateralEpicondyle": [
+          -0.11276,
+          0.39575,
+          0.07692
+        ],
+        "patellaApex": [
+          -0.08473,
+          0.36149,
+          0.10837
+        ],
+        "tibialTuberosity": [
+          -0.08724,
+          0.34045,
+          0.11484
+        ]
+      },
+      "patellaContact": {
+        "radial": [
+          0.115592,
+          -0.417216,
+          0.901426
+        ],
+        "restGap": 0.00157,
+        "table": [
+          {
+            "deg": 0,
+            "delta": 0
+          },
+          {
+            "deg": 5,
+            "delta": 0.00138
+          },
+          {
+            "deg": 10,
+            "delta": 0.00077
+          },
+          {
+            "deg": 15,
+            "delta": -0.00055
+          },
+          {
+            "deg": 20,
+            "delta": -0.00197
+          },
+          {
+            "deg": 25,
+            "delta": -0.00146
+          },
+          {
+            "deg": 30,
+            "delta": -0.00511
+          },
+          {
+            "deg": 35,
+            "delta": -0.00415
+          },
+          {
+            "deg": 40,
+            "delta": -0.00438
+          },
+          {
+            "deg": 45,
+            "delta": -0.00587
+          },
+          {
+            "deg": 50,
+            "delta": -0.00715
+          },
+          {
+            "deg": 55,
+            "delta": -0.00873
+          },
+          {
+            "deg": 60,
+            "delta": -0.00928
+          },
+          {
+            "deg": 65,
+            "delta": -0.01084
+          },
+          {
+            "deg": 70,
+            "delta": -0.01195
+          },
+          {
+            "deg": 75,
+            "delta": -0.01255
+          },
+          {
+            "deg": 80,
+            "delta": -0.0126
+          },
+          {
+            "deg": 85,
+            "delta": -0.01272
+          },
+          {
+            "deg": 90,
+            "delta": -0.01305
+          },
+          {
+            "deg": 95,
+            "delta": -0.01348
+          },
+          {
+            "deg": 100,
+            "delta": -0.01328
+          }
+        ]
+      },
+      "quality": "largura epicondilar 81.5 mm · tendão patelar (ápice–tuberosidade) 22.1 mm"
+    },
+    {
+      "id": "hip-center",
+      "origin": [
+        -0.08719,
+        0.81138,
+        0.07886
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "axes": {
+        "flexion": [
+          1,
+          0,
+          0
+        ],
+        "abduction": [
+          0,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          1,
+          0
+        ]
+      },
+      "method": "Centro da cabeça do fêmur por ajuste de esfera (mínimos quadrados) na malha original; eixos anatômicos do corpo de referência (X mediolateral, Z anteroposterior, Y longitudinal).",
+      "quality": "raio 22.8 mm · resíduo 0.79 mm · 299 vértices"
+    }
+  ],
+  "limitations": [
+    "Acervo BodyParts3D 4.0: um único corpo de referência (adulto masculino), não representa variações individuais.",
+    "Sem texturas na fonte: as cores são convenções educativas por camada.",
+    "Músculos e pele são superfícies estáticas: não se deformam durante os movimentos.",
+    "A fonte não inclui ligamentos cruzados/colaterais, meniscos nem cartilagem articular do joelho: essas camadas ficam indisponíveis.",
+    "O tendão patelar não existe como malha na fonte. Na malha de referência, a distância entre o polo inferior da patela e a tuberosidade da tíbia é curta (ver manifesto): a altura da patela deve ser avaliada na revisão clínica."
+  ],
+  "generatedAt": "2026-10-21T04:33:43.012Z"
+}

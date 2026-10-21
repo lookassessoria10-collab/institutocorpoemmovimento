@@ -1,0 +1,620 @@
+{
+  "id": "shoulder-right",
+  "region": "shoulder",
+  "title": "Ombro direito",
+  "side": "right",
+  "file": "/anatomy/shoulder-right.c07667bede.glb",
+  "bytes": 787500,
+  "sha256": "c07667bede9292b05189887d76855514b7438edcf9e996c5a7db8668435edb3f",
+  "sourceId": "bodyparts3d-4.0",
+  "units": "m",
+  "bounds": {
+    "min": [
+      -0.24084,
+      0.99407,
+      -0.02455
+    ],
+    "max": [
+      0.02745,
+      1.50624,
+      0.21935
+    ]
+  },
+  "focus": [
+    -0.16438,
+    1.31519,
+    0.07574
+  ],
+  "focusRadius": 0.25608,
+  "triangles": 113571,
+  "structures": [
+    {
+      "id": "right_clavicle",
+      "sourceIds": [
+        "FMA13322",
+        "FJ3362"
+      ],
+      "nameEn": "right clavicle",
+      "layer": "bones",
+      "segment": "clavicula",
+      "center": [
+        -0.07747,
+        1.33203,
+        0.10068
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1146,
+      "triangles": 1146
+    },
+    {
+      "id": "right_scapula",
+      "sourceIds": [
+        "FMA13395",
+        "FJ3384"
+      ],
+      "nameEn": "right scapula",
+      "layer": "bones",
+      "segment": "escapula",
+      "center": [
+        -0.11176,
+        1.26691,
+        0.04889
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 26172,
+      "triangles": 12000
+    },
+    {
+      "id": "right_humerus",
+      "sourceIds": [
+        "FMA23130",
+        "FJ3368"
+      ],
+      "nameEn": "right humerus",
+      "layer": "bones",
+      "segment": "braco",
+      "center": [
+        -0.19047,
+        1.18287,
+        0.07563
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 3784,
+      "triangles": 3784
+    },
+    {
+      "id": "body_of_sternum",
+      "sourceIds": [
+        "FMA7487",
+        "FJ3178"
+      ],
+      "nameEn": "body of sternum",
+      "layer": "bones",
+      "center": [
+        0.00017,
+        1.23464,
+        0.1895
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 4646,
+      "triangles": 4646
+    },
+    {
+      "id": "manubrium",
+      "sourceIds": [
+        "FMA7486",
+        "FJ3290"
+      ],
+      "nameEn": "manubrium",
+      "layer": "bones",
+      "center": [
+        0,
+        1.30276,
+        0.15469
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 2546,
+      "triangles": 2546
+    },
+    {
+      "id": "acromial_part_of_right_deltoid",
+      "sourceIds": [
+        "FMA34682",
+        "FJ1467"
+      ],
+      "nameEn": "acromial part of right deltoid",
+      "layer": "muscles",
+      "center": [
+        -0.18691,
+        1.27716,
+        0.07209
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1300,
+      "triangles": 1300
+    },
+    {
+      "id": "clavicular_part_of_right_deltoid",
+      "sourceIds": [
+        "FMA34680",
+        "FJ1468"
+      ],
+      "nameEn": "clavicular part of right deltoid",
+      "layer": "muscles",
+      "center": [
+        -0.14609,
+        1.27962,
+        0.09823
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 2206,
+      "triangles": 2206
+    },
+    {
+      "id": "spinal_part_of_right_deltoid",
+      "sourceIds": [
+        "FMA34684",
+        "FJ1513"
+      ],
+      "nameEn": "spinal part of right deltoid",
+      "layer": "muscles",
+      "center": [
+        -0.151,
+        1.2638,
+        0.04099
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1900,
+      "triangles": 1900
+    },
+    {
+      "id": "right_supraspinatus",
+      "sourceIds": [
+        "FMA32544",
+        "FJ1506"
+      ],
+      "nameEn": "right supraspinatus",
+      "layer": "muscles",
+      "center": [
+        -0.12616,
+        1.32485,
+        0.05243
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 878,
+      "triangles": 878
+    },
+    {
+      "id": "right_infraspinatus_muscle",
+      "sourceIds": [
+        "FMA32547",
+        "FJ1500"
+      ],
+      "nameEn": "right infraspinatus muscle",
+      "layer": "muscles",
+      "center": [
+        -0.12465,
+        1.26875,
+        0.03671
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 866,
+      "triangles": 866
+    },
+    {
+      "id": "right_teres_minor",
+      "sourceIds": [
+        "FMA32553",
+        "FJ1508"
+      ],
+      "nameEn": "right teres minor",
+      "layer": "muscles",
+      "center": [
+        -0.14798,
+        1.26874,
+        0.04636
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 506,
+      "triangles": 506
+    },
+    {
+      "id": "right_subscapularis",
+      "sourceIds": [
+        "FMA13414",
+        "FJ1504"
+      ],
+      "nameEn": "right subscapularis",
+      "layer": "muscles",
+      "center": [
+        -0.11465,
+        1.25998,
+        0.05136
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 2092,
+      "triangles": 2092
+    },
+    {
+      "id": "right_teres_major",
+      "sourceIds": [
+        "FMA32551",
+        "FJ1507"
+      ],
+      "nameEn": "right teres major",
+      "layer": "muscles",
+      "center": [
+        -0.12918,
+        1.2375,
+        0.039
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1042,
+      "triangles": 1042
+    },
+    {
+      "id": "long_head_of_right_biceps_brachii",
+      "sourceIds": [
+        "FMA37686",
+        "FJ1478"
+      ],
+      "nameEn": "long head of right biceps brachii",
+      "layer": "muscles",
+      "center": [
+        -0.18256,
+        1.16675,
+        0.08855
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1426,
+      "triangles": 1426
+    },
+    {
+      "id": "short_head_of_right_biceps_brachii",
+      "sourceIds": [
+        "FMA37684",
+        "FJ1512"
+      ],
+      "nameEn": "short head of right biceps brachii",
+      "layer": "muscles",
+      "center": [
+        -0.17381,
+        1.19649,
+        0.09253
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1856,
+      "triangles": 1856
+    },
+    {
+      "id": "long_head_of_right_triceps_brachii",
+      "sourceIds": [
+        "FMA37699",
+        "FJ1479"
+      ],
+      "nameEn": "long head of right triceps brachii",
+      "layer": "muscles",
+      "center": [
+        -0.17558,
+        1.168,
+        0.04143
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1588,
+      "triangles": 1588
+    },
+    {
+      "id": "lateral_head_of_right_triceps_brachii",
+      "sourceIds": [
+        "FMA37697",
+        "FJ1477"
+      ],
+      "nameEn": "lateral head of right triceps brachii",
+      "layer": "muscles",
+      "center": [
+        -0.20123,
+        1.16405,
+        0.04444
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 2606,
+      "triangles": 2606
+    },
+    {
+      "id": "medial_head_of_right_triceps_brachii",
+      "sourceIds": [
+        "FMA37695",
+        "FJ1480"
+      ],
+      "nameEn": "medial head of right triceps brachii",
+      "layer": "muscles",
+      "center": [
+        -0.19717,
+        1.1427,
+        0.0591
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 832,
+      "triangles": 832
+    },
+    {
+      "id": "right_coracobrachialis",
+      "sourceIds": [
+        "FMA37665",
+        "FJ1488"
+      ],
+      "nameEn": "right coracobrachialis",
+      "layer": "muscles",
+      "center": [
+        -0.15979,
+        1.249,
+        0.08652
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 444,
+      "triangles": 444
+    },
+    {
+      "id": "right_brachialis",
+      "sourceIds": [
+        "FMA37668",
+        "FJ1486"
+      ],
+      "nameEn": "right brachialis",
+      "layer": "muscles",
+      "center": [
+        -0.20575,
+        1.10778,
+        0.07348
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1746,
+      "triangles": 1746
+    },
+    {
+      "id": "clavicular_part_of_right_pectoralis_major",
+      "sourceIds": [
+        "FMA34690",
+        "FJ1447"
+      ],
+      "nameEn": "clavicular part of right pectoralis major",
+      "layer": "muscles",
+      "center": [
+        -0.11034,
+        1.2852,
+        0.11355
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1846,
+      "triangles": 1846
+    },
+    {
+      "id": "sternocostal_part_of_right_pectoralis_major",
+      "sourceIds": [
+        "FMA79979",
+        "FJ1464"
+      ],
+      "nameEn": "sternocostal part of right pectoralis major",
+      "layer": "muscles",
+      "center": [
+        -0.09633,
+        1.2272,
+        0.15018
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 7114,
+      "triangles": 7114
+    },
+    {
+      "id": "abdominal_part_of_right_pectoralis_major",
+      "sourceIds": [
+        "FMA45874",
+        "FJ1446"
+      ],
+      "nameEn": "abdominal part of right pectoralis major",
+      "layer": "muscles",
+      "center": [
+        -0.11445,
+        1.19136,
+        0.14769
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 1536,
+      "triangles": 1536
+    },
+    {
+      "id": "right_pectoralis_minor",
+      "sourceIds": [
+        "FMA13375",
+        "FJ1456"
+      ],
+      "nameEn": "right pectoralis minor",
+      "layer": "muscles",
+      "center": [
+        -0.09996,
+        1.25417,
+        0.1267
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 9468,
+      "triangles": 7000
+    },
+    {
+      "id": "descending_part_of_right_trapezius",
+      "sourceIds": [
+        "FMA33586",
+        "FJ1521"
+      ],
+      "nameEn": "descending part of right trapezius",
+      "layer": "muscles",
+      "center": [
+        -0.06368,
+        1.42342,
+        0.05414
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 7108,
+      "triangles": 7108
+    },
+    {
+      "id": "transverse_part_of_right_trapezius",
+      "sourceIds": [
+        "FMA33584",
+        "FJ1554"
+      ],
+      "nameEn": "transverse part of right trapezius",
+      "layer": "muscles",
+      "center": [
+        -0.07968,
+        1.34286,
+        0.02948
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 4460,
+      "triangles": 4460
+    },
+    {
+      "id": "ascending_part_of_right_trapezius",
+      "sourceIds": [
+        "FMA33581",
+        "FJ1520"
+      ],
+      "nameEn": "ascending part of right trapezius",
+      "layer": "muscles",
+      "center": [
+        -0.07267,
+        1.19849,
+        0.01121
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 10530,
+      "triangles": 6994
+    },
+    {
+      "id": "right_serratus_anterior",
+      "sourceIds": [
+        "FMA13398",
+        "FJ1459"
+      ],
+      "nameEn": "right serratus anterior",
+      "layer": "muscles",
+      "center": [
+        -0.10106,
+        1.21327,
+        0.07616
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 49212,
+      "triangles": 6992
+    },
+    {
+      "id": "right_rhomboid_major",
+      "sourceIds": [
+        "FMA13381",
+        "FJ1536"
+      ],
+      "nameEn": "right rhomboid major",
+      "layer": "muscles",
+      "center": [
+        -0.04436,
+        1.27492,
+        0.008
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 7202,
+      "triangles": 7000
+    },
+    {
+      "id": "right_rhomboid_minor",
+      "sourceIds": [
+        "FMA13383",
+        "FJ1537"
+      ],
+      "nameEn": "right rhomboid minor",
+      "layer": "muscles",
+      "center": [
+        -0.03039,
+        1.33415,
+        0.02045
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 2206,
+      "triangles": 2206
+    },
+    {
+      "id": "right_levator_scapulae",
+      "sourceIds": [
+        "FMA32540",
+        "FJ1532"
+      ],
+      "nameEn": "right levator scapulae",
+      "layer": "muscles",
+      "center": [
+        -0.05108,
+        1.38894,
+        0.04727
+      ],
+      "coveredBySkin": true,
+      "sourceTriangles": 4718,
+      "triangles": 4718
+    },
+    {
+      "id": "skin",
+      "sourceIds": [
+        "FMA7163",
+        "FJ2810"
+      ],
+      "nameEn": "skin",
+      "layer": "skin",
+      "center": [
+        -0.138,
+        1.19232,
+        0.09014
+      ],
+      "coveredBySkin": false,
+      "sourceTriangles": 11187,
+      "triangles": 11187
+    }
+  ],
+  "joints": [
+    {
+      "id": "shoulder-gh",
+      "origin": [
+        -0.16438,
+        1.31519,
+        0.07574
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "axes": {
+        "flexion": [
+          1,
+          0,
+          0
+        ],
+        "abduction": [
+          0,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          1,
+          0
+        ]
+      },
+      "method": "Centro da cabeça do úmero por ajuste de esfera (mínimos quadrados) na malha original; eixos anatômicos do corpo de referência.",
+      "quality": "raio 22.5 mm · resíduo 1.30 mm · 687 vértices"
+    }
+  ],
+  "limitations": [
+    "Acervo BodyParts3D 4.0: um único corpo de referência (adulto masculino), não representa variações individuais.",
+    "Sem texturas na fonte: as cores são convenções educativas por camada.",
+    "Músculos e pele são superfícies estáticas: não se deformam durante os movimentos.",
+    "A fonte não inclui ligamentos, lábio glenoidal nem cápsula articular do ombro."
+  ],
+  "generatedAt": "2026-10-21T04:20:11.225Z"
+}

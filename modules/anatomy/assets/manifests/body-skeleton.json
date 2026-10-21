@@ -1,0 +1,3285 @@
+{
+  "id": "body-skeleton",
+  "region": "body",
+  "title": "Esqueleto completo (visão geral)",
+  "side": "midline",
+  "file": "/anatomy/body-skeleton.d5749ec20b.glb",
+  "bytes": 1033388,
+  "sha256": "d5749ec20bf4030b8ce7d253c27b08acdf28b66da647a3db69713cbf80745609",
+  "sourceId": "bodyparts3d-4.0",
+  "units": "m",
+  "bounds": {
+    "min": [
+      -0.32391,
+      -0.07048,
+      -0.018
+    ],
+    "max": [
+      0.32394,
+      1.63627,
+      0.23604
+    ]
+  },
+  "focus": [
+    0.00001,
+    0.7829,
+    0.10902
+  ],
+  "focusRadius": 0.85337,
+  "triangles": 109350,
+  "structures": [
+    {
+      "id": "hyoid_bone",
+      "sourceIds": [
+        "FMA52749",
+        "FJ2772"
+      ],
+      "nameEn": "hyoid bone",
+      "layer": "bones",
+      "center": [
+        -0.00062,
+        1.43161,
+        0.11171
+      ],
+      "sourceTriangles": 1196,
+      "triangles": 700
+    },
+    {
+      "id": "right_hip_bone",
+      "sourceIds": [
+        "FMA16586",
+        "FJ3152"
+      ],
+      "nameEn": "right hip bone",
+      "layer": "bones",
+      "center": [
+        -0.07383,
+        0.85501,
+        0.07007
+      ],
+      "sourceTriangles": 2374,
+      "triangles": 700
+    },
+    {
+      "id": "tenth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA10037",
+        "FJ3154"
+      ],
+      "nameEn": "tenth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00071,
+        1.12845,
+        0.04594
+      ],
+      "sourceTriangles": 2790,
+      "triangles": 700
+    },
+    {
+      "id": "eleventh_thoracic_vertebra",
+      "sourceIds": [
+        "FMA10059",
+        "FJ3155"
+      ],
+      "nameEn": "eleventh thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.0006,
+        1.10249,
+        0.05277
+      ],
+      "sourceTriangles": 2674,
+      "triangles": 700
+    },
+    {
+      "id": "twelfth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA10081",
+        "FJ3156"
+      ],
+      "nameEn": "twelfth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00067,
+        1.07578,
+        0.06197
+      ],
+      "sourceTriangles": 2772,
+      "triangles": 700
+    },
+    {
+      "id": "first_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13072",
+        "FJ3157"
+      ],
+      "nameEn": "first lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00066,
+        1.04359,
+        0.06935
+      ],
+      "sourceTriangles": 2972,
+      "triangles": 700
+    },
+    {
+      "id": "first_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9165",
+        "FJ3158"
+      ],
+      "nameEn": "first thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00073,
+        1.36206,
+        0.05198
+      ],
+      "sourceTriangles": 1700,
+      "triangles": 700
+    },
+    {
+      "id": "second_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13073",
+        "FJ3159"
+      ],
+      "nameEn": "second lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00065,
+        1.01604,
+        0.07453
+      ],
+      "sourceTriangles": 3214,
+      "triangles": 700
+    },
+    {
+      "id": "second_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9187",
+        "FJ3160"
+      ],
+      "nameEn": "second thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00067,
+        1.34347,
+        0.0474
+      ],
+      "sourceTriangles": 1938,
+      "triangles": 700
+    },
+    {
+      "id": "third_cervical_vertebra",
+      "sourceIds": [
+        "FMA12521",
+        "FJ3161"
+      ],
+      "nameEn": "third cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00065,
+        1.43137,
+        0.06297
+      ],
+      "sourceTriangles": 2030,
+      "triangles": 700
+    },
+    {
+      "id": "third_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13074",
+        "FJ3162"
+      ],
+      "nameEn": "third lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00068,
+        0.98871,
+        0.07243
+      ],
+      "sourceTriangles": 3272,
+      "triangles": 700
+    },
+    {
+      "id": "third_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9209",
+        "FJ3163"
+      ],
+      "nameEn": "third thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00056,
+        1.32204,
+        0.03905
+      ],
+      "sourceTriangles": 2038,
+      "triangles": 700
+    },
+    {
+      "id": "fourth_cervical_vertebra",
+      "sourceIds": [
+        "FMA12522",
+        "FJ3164"
+      ],
+      "nameEn": "fourth cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00069,
+        1.41837,
+        0.0649
+      ],
+      "sourceTriangles": 2410,
+      "triangles": 700
+    },
+    {
+      "id": "fourth_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13075",
+        "FJ3165"
+      ],
+      "nameEn": "fourth lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00068,
+        0.96103,
+        0.06828
+      ],
+      "sourceTriangles": 3512,
+      "triangles": 700
+    },
+    {
+      "id": "fourth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9248",
+        "FJ3166"
+      ],
+      "nameEn": "fourth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00059,
+        1.29957,
+        0.0349
+      ],
+      "sourceTriangles": 2066,
+      "triangles": 700
+    },
+    {
+      "id": "fifth_cervical_vertebra",
+      "sourceIds": [
+        "FMA12523",
+        "FJ3167"
+      ],
+      "nameEn": "fifth cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00068,
+        1.40588,
+        0.06343
+      ],
+      "sourceTriangles": 2196,
+      "triangles": 700
+    },
+    {
+      "id": "fifth_lumbar_vertebra",
+      "sourceIds": [
+        "FMA13076",
+        "FJ3168"
+      ],
+      "nameEn": "fifth lumbar vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00071,
+        0.92971,
+        0.05866
+      ],
+      "sourceTriangles": 3892,
+      "triangles": 700
+    },
+    {
+      "id": "fifth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9922",
+        "FJ3169"
+      ],
+      "nameEn": "fifth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00063,
+        1.26852,
+        0.033
+      ],
+      "sourceTriangles": 2280,
+      "triangles": 700
+    },
+    {
+      "id": "sixth_cervical_vertebra",
+      "sourceIds": [
+        "FMA12524",
+        "FJ3170"
+      ],
+      "nameEn": "sixth cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00066,
+        1.39316,
+        0.06043
+      ],
+      "sourceTriangles": 2374,
+      "triangles": 700
+    },
+    {
+      "id": "sixth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9945",
+        "FJ3171"
+      ],
+      "nameEn": "sixth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00069,
+        1.23923,
+        0.03321
+      ],
+      "sourceTriangles": 2248,
+      "triangles": 700
+    },
+    {
+      "id": "seventh_cervical_vertebra",
+      "sourceIds": [
+        "FMA12525",
+        "FJ3172"
+      ],
+      "nameEn": "seventh cervical vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00065,
+        1.37827,
+        0.05565
+      ],
+      "sourceTriangles": 1820,
+      "triangles": 700
+    },
+    {
+      "id": "seventh_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9968",
+        "FJ3173"
+      ],
+      "nameEn": "seventh thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00045,
+        1.21055,
+        0.03383
+      ],
+      "sourceTriangles": 2574,
+      "triangles": 700
+    },
+    {
+      "id": "eighth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA9991",
+        "FJ3174"
+      ],
+      "nameEn": "eighth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.00075,
+        1.1834,
+        0.03648
+      ],
+      "sourceTriangles": 2424,
+      "triangles": 700
+    },
+    {
+      "id": "ninth_thoracic_vertebra",
+      "sourceIds": [
+        "FMA10014",
+        "FJ3175"
+      ],
+      "nameEn": "ninth thoracic vertebra",
+      "layer": "bones",
+      "center": [
+        -0.0007,
+        1.15573,
+        0.0419
+      ],
+      "sourceTriangles": 2586,
+      "triangles": 700
+    },
+    {
+      "id": "atlas",
+      "sourceIds": [
+        "FMA12519",
+        "FJ3176"
+      ],
+      "nameEn": "atlas",
+      "layer": "bones",
+      "center": [
+        -0.00057,
+        1.47182,
+        0.06412
+      ],
+      "sourceTriangles": 2094,
+      "triangles": 700
+    },
+    {
+      "id": "axis",
+      "sourceIds": [
+        "FMA12520",
+        "FJ3177"
+      ],
+      "nameEn": "axis",
+      "layer": "bones",
+      "center": [
+        -0.00069,
+        1.45576,
+        0.0616
+      ],
+      "sourceTriangles": 2288,
+      "triangles": 700
+    },
+    {
+      "id": "distal_phalanx_of_left_second_toe",
+      "sourceIds": [
+        "FMA32653",
+        "FJ3179"
+      ],
+      "nameEn": "distal phalanx of left second toe",
+      "layer": "bones",
+      "center": [
+        0.13778,
+        -0.06662,
+        0.22744
+      ],
+      "sourceTriangles": 240,
+      "triangles": 240
+    },
+    {
+      "id": "distal_phalanx_of_left_third_toe",
+      "sourceIds": [
+        "FMA32655",
+        "FJ3180"
+      ],
+      "nameEn": "distal phalanx of left third toe",
+      "layer": "bones",
+      "center": [
+        0.15034,
+        -0.06731,
+        0.21798
+      ],
+      "sourceTriangles": 336,
+      "triangles": 336
+    },
+    {
+      "id": "distal_phalanx_of_left_fourth_toe",
+      "sourceIds": [
+        "FMA32657",
+        "FJ3181"
+      ],
+      "nameEn": "distal phalanx of left fourth toe",
+      "layer": "bones",
+      "center": [
+        0.15964,
+        -0.06688,
+        0.20099
+      ],
+      "sourceTriangles": 226,
+      "triangles": 226
+    },
+    {
+      "id": "distal_phalanx_of_left_big_toe",
+      "sourceIds": [
+        "FMA32651",
+        "FJ3182"
+      ],
+      "nameEn": "distal phalanx of left big toe",
+      "layer": "bones",
+      "center": [
+        0.11378,
+        -0.06452,
+        0.22332
+      ],
+      "sourceTriangles": 378,
+      "triangles": 378
+    },
+    {
+      "id": "distal_phalanx_of_left_index_finger",
+      "sourceIds": [
+        "FMA23953",
+        "FJ3183"
+      ],
+      "nameEn": "distal phalanx of left index finger",
+      "layer": "bones",
+      "center": [
+        0.30626,
+        0.66871,
+        0.17816
+      ],
+      "sourceTriangles": 328,
+      "triangles": 328
+    },
+    {
+      "id": "distal_phalanx_of_left_little_finger",
+      "sourceIds": [
+        "FMA23959",
+        "FJ3184"
+      ],
+      "nameEn": "distal phalanx of left little finger",
+      "layer": "bones",
+      "center": [
+        0.22302,
+        0.68297,
+        0.17535
+      ],
+      "sourceTriangles": 198,
+      "triangles": 198
+    },
+    {
+      "id": "distal_phalanx_of_left_little_toe",
+      "sourceIds": [
+        "FMA32659",
+        "FJ3185"
+      ],
+      "nameEn": "distal phalanx of left little toe",
+      "layer": "bones",
+      "center": [
+        0.16531,
+        -0.0678,
+        0.18135
+      ],
+      "sourceTriangles": 220,
+      "triangles": 220
+    },
+    {
+      "id": "distal_phalanx_of_left_middle_finger",
+      "sourceIds": [
+        "FMA23955",
+        "FJ3186"
+      ],
+      "nameEn": "distal phalanx of left middle finger",
+      "layer": "bones",
+      "center": [
+        0.27611,
+        0.65987,
+        0.18659
+      ],
+      "sourceTriangles": 266,
+      "triangles": 266
+    },
+    {
+      "id": "distal_phalanx_of_left_ring_finger",
+      "sourceIds": [
+        "FMA23957",
+        "FJ3187"
+      ],
+      "nameEn": "distal phalanx of left ring finger",
+      "layer": "bones",
+      "center": [
+        0.24947,
+        0.66936,
+        0.18656
+      ],
+      "sourceTriangles": 196,
+      "triangles": 196
+    },
+    {
+      "id": "distal_phalanx_of_left_thumb",
+      "sourceIds": [
+        "FMA23951",
+        "FJ3188"
+      ],
+      "nameEn": "distal phalanx of left thumb",
+      "layer": "bones",
+      "center": [
+        0.31739,
+        0.73074,
+        0.16526
+      ],
+      "sourceTriangles": 270,
+      "triangles": 270
+    },
+    {
+      "id": "distal_phalanx_of_right_second_toe",
+      "sourceIds": [
+        "FMA32652",
+        "FJ3189"
+      ],
+      "nameEn": "distal phalanx of right second toe",
+      "layer": "bones",
+      "center": [
+        -0.13785,
+        -0.06667,
+        0.22755
+      ],
+      "sourceTriangles": 200,
+      "triangles": 200
+    },
+    {
+      "id": "distal_phalanx_of_right_third_toe",
+      "sourceIds": [
+        "FMA32654",
+        "FJ3190"
+      ],
+      "nameEn": "distal phalanx of right third toe",
+      "layer": "bones",
+      "center": [
+        -0.15036,
+        -0.06729,
+        0.21796
+      ],
+      "sourceTriangles": 260,
+      "triangles": 260
+    },
+    {
+      "id": "distal_phalanx_of_right_fourth_toe",
+      "sourceIds": [
+        "FMA32656",
+        "FJ3191"
+      ],
+      "nameEn": "distal phalanx of right fourth toe",
+      "layer": "bones",
+      "center": [
+        -0.15973,
+        -0.06689,
+        0.20095
+      ],
+      "sourceTriangles": 244,
+      "triangles": 244
+    },
+    {
+      "id": "distal_phalanx_of_right_big_toe",
+      "sourceIds": [
+        "FMA32650",
+        "FJ3192"
+      ],
+      "nameEn": "distal phalanx of right big toe",
+      "layer": "bones",
+      "center": [
+        -0.11376,
+        -0.06445,
+        0.22341
+      ],
+      "sourceTriangles": 440,
+      "triangles": 440
+    },
+    {
+      "id": "distal_phalanx_of_right_index_finger",
+      "sourceIds": [
+        "FMA24460",
+        "FJ3193"
+      ],
+      "nameEn": "distal phalanx of right index finger",
+      "layer": "bones",
+      "center": [
+        -0.3064,
+        0.66877,
+        0.17819
+      ],
+      "sourceTriangles": 210,
+      "triangles": 210
+    },
+    {
+      "id": "distal_phalanx_of_right_little_finger",
+      "sourceIds": [
+        "FMA24463",
+        "FJ3194"
+      ],
+      "nameEn": "distal phalanx of right little finger",
+      "layer": "bones",
+      "center": [
+        -0.22305,
+        0.68301,
+        0.17502
+      ],
+      "sourceTriangles": 188,
+      "triangles": 188
+    },
+    {
+      "id": "distal_phalanx_of_right_little_toe",
+      "sourceIds": [
+        "FMA32658",
+        "FJ3195"
+      ],
+      "nameEn": "distal phalanx of right little toe",
+      "layer": "bones",
+      "center": [
+        -0.16525,
+        -0.06775,
+        0.18139
+      ],
+      "sourceTriangles": 210,
+      "triangles": 210
+    },
+    {
+      "id": "distal_phalanx_of_right_middle_finger",
+      "sourceIds": [
+        "FMA24461",
+        "FJ3196"
+      ],
+      "nameEn": "distal phalanx of right middle finger",
+      "layer": "bones",
+      "center": [
+        -0.27614,
+        0.6598,
+        0.18682
+      ],
+      "sourceTriangles": 174,
+      "triangles": 174
+    },
+    {
+      "id": "distal_phalanx_of_right_ring_finger",
+      "sourceIds": [
+        "FMA24462",
+        "FJ3197"
+      ],
+      "nameEn": "distal phalanx of right ring finger",
+      "layer": "bones",
+      "center": [
+        -0.24945,
+        0.66944,
+        0.18655
+      ],
+      "sourceTriangles": 112,
+      "triangles": 112
+    },
+    {
+      "id": "distal_phalanx_of_right_thumb",
+      "sourceIds": [
+        "FMA24459",
+        "FJ3198"
+      ],
+      "nameEn": "distal phalanx of right thumb",
+      "layer": "bones",
+      "center": [
+        -0.31709,
+        0.73065,
+        0.16525
+      ],
+      "sourceTriangles": 240,
+      "triangles": 240
+    },
+    {
+      "id": "ethmoid",
+      "sourceIds": [
+        "FMA52740",
+        "FJ3199"
+      ],
+      "nameEn": "ethmoid",
+      "layer": "bones",
+      "center": [
+        -0.00065,
+        1.51481,
+        0.14351
+      ],
+      "sourceTriangles": 22266,
+      "triangles": 700
+    },
+    {
+      "id": "frontal_bone",
+      "sourceIds": [
+        "FMA52734",
+        "FJ3200"
+      ],
+      "nameEn": "frontal bone",
+      "layer": "bones",
+      "center": [
+        -0.00066,
+        1.57542,
+        0.14201
+      ],
+      "sourceTriangles": 14510,
+      "triangles": 698
+    },
+    {
+      "id": "hyoid_bone__right_side",
+      "sourceIds": [
+        "FMA52749",
+        "FJ3201"
+      ],
+      "nameEn": "hyoid bone",
+      "layer": "bones",
+      "center": [
+        -0.00062,
+        1.43161,
+        0.11171
+      ],
+      "sourceTriangles": 1196,
+      "triangles": 700
+    },
+    {
+      "id": "left_tenth_rib",
+      "sourceIds": [
+        "FMA8472",
+        "FJ3225"
+      ],
+      "nameEn": "left tenth rib",
+      "layer": "bones",
+      "center": [
+        0.06896,
+        1.09097,
+        0.06453
+      ],
+      "sourceTriangles": 6826,
+      "triangles": 700
+    },
+    {
+      "id": "left_eleventh_rib",
+      "sourceIds": [
+        "FMA8532",
+        "FJ3226"
+      ],
+      "nameEn": "left eleventh rib",
+      "layer": "bones",
+      "center": [
+        0.06317,
+        1.0649,
+        0.05699
+      ],
+      "sourceTriangles": 4866,
+      "triangles": 700
+    },
+    {
+      "id": "left_twelfth_rib",
+      "sourceIds": [
+        "FMA8534",
+        "FJ3227"
+      ],
+      "nameEn": "left twelfth rib",
+      "layer": "bones",
+      "center": [
+        0.05106,
+        1.05024,
+        0.04704
+      ],
+      "sourceTriangles": 2818,
+      "triangles": 700
+    },
+    {
+      "id": "left_first_rib",
+      "sourceIds": [
+        "FMA7987",
+        "FJ3228"
+      ],
+      "nameEn": "left first rib",
+      "layer": "bones",
+      "center": [
+        0.04113,
+        1.34027,
+        0.09742
+      ],
+      "sourceTriangles": 3276,
+      "triangles": 700
+    },
+    {
+      "id": "left_second_rib",
+      "sourceIds": [
+        "FMA8012",
+        "FJ3229"
+      ],
+      "nameEn": "left second rib",
+      "layer": "bones",
+      "center": [
+        0.0552,
+        1.31627,
+        0.10889
+      ],
+      "sourceTriangles": 5594,
+      "triangles": 698
+    },
+    {
+      "id": "left_third_rib",
+      "sourceIds": [
+        "FMA8039",
+        "FJ3230"
+      ],
+      "nameEn": "left third rib",
+      "layer": "bones",
+      "center": [
+        0.06018,
+        1.28991,
+        0.10806
+      ],
+      "sourceTriangles": 7254,
+      "triangles": 700
+    },
+    {
+      "id": "left_fourth_rib",
+      "sourceIds": [
+        "FMA8148",
+        "FJ3231"
+      ],
+      "nameEn": "left fourth rib",
+      "layer": "bones",
+      "center": [
+        0.06459,
+        1.26323,
+        0.10769
+      ],
+      "sourceTriangles": 8850,
+      "triangles": 700
+    },
+    {
+      "id": "left_fifth_rib",
+      "sourceIds": [
+        "FMA8093",
+        "FJ3232"
+      ],
+      "nameEn": "left fifth rib",
+      "layer": "bones",
+      "center": [
+        0.06989,
+        1.23175,
+        0.10521
+      ],
+      "sourceTriangles": 9710,
+      "triangles": 700
+    },
+    {
+      "id": "left_sixth_rib",
+      "sourceIds": [
+        "FMA8202",
+        "FJ3233"
+      ],
+      "nameEn": "left sixth rib",
+      "layer": "bones",
+      "center": [
+        0.07291,
+        1.20236,
+        0.09857
+      ],
+      "sourceTriangles": 10264,
+      "triangles": 700
+    },
+    {
+      "id": "left_seventh_rib",
+      "sourceIds": [
+        "FMA8256",
+        "FJ3234"
+      ],
+      "nameEn": "left seventh rib",
+      "layer": "bones",
+      "center": [
+        0.07408,
+        1.17272,
+        0.09235
+      ],
+      "sourceTriangles": 10032,
+      "triangles": 700
+    },
+    {
+      "id": "left_eighth_rib",
+      "sourceIds": [
+        "FMA8310",
+        "FJ3235"
+      ],
+      "nameEn": "left eighth rib",
+      "layer": "bones",
+      "center": [
+        0.072,
+        1.14299,
+        0.08362
+      ],
+      "sourceTriangles": 8336,
+      "triangles": 700
+    },
+    {
+      "id": "left_ninth_rib",
+      "sourceIds": [
+        "FMA8391",
+        "FJ3236"
+      ],
+      "nameEn": "left ninth rib",
+      "layer": "bones",
+      "center": [
+        0.07117,
+        1.11772,
+        0.07156
+      ],
+      "sourceTriangles": 7576,
+      "triangles": 700
+    },
+    {
+      "id": "left_clavicle",
+      "sourceIds": [
+        "FMA13323",
+        "FJ3237"
+      ],
+      "nameEn": "left clavicle",
+      "layer": "bones",
+      "center": [
+        0.07616,
+        1.33185,
+        0.10073
+      ],
+      "sourceTriangles": 1176,
+      "triangles": 700
+    },
+    {
+      "id": "left_first_metacarpal_bone",
+      "sourceIds": [
+        "FMA24465",
+        "FJ3240"
+      ],
+      "nameEn": "left first metacarpal bone",
+      "layer": "bones",
+      "center": [
+        0.29099,
+        0.77885,
+        0.13859
+      ],
+      "sourceTriangles": 578,
+      "triangles": 578
+    },
+    {
+      "id": "left_first_metatarsal_bone",
+      "sourceIds": [
+        "FMA24508",
+        "FJ3241"
+      ],
+      "nameEn": "left first metatarsal bone",
+      "layer": "bones",
+      "center": [
+        0.08961,
+        -0.04376,
+        0.16111
+      ],
+      "sourceTriangles": 1172,
+      "triangles": 700
+    },
+    {
+      "id": "left_second_metacarpal_bone",
+      "sourceIds": [
+        "FMA24467",
+        "FJ3243"
+      ],
+      "nameEn": "left second metacarpal bone",
+      "layer": "bones",
+      "center": [
+        0.27723,
+        0.75296,
+        0.12978
+      ],
+      "sourceTriangles": 774,
+      "triangles": 700
+    },
+    {
+      "id": "left_second_metatarsal_bone",
+      "sourceIds": [
+        "FMA24510",
+        "FJ3244"
+      ],
+      "nameEn": "left second metatarsal bone",
+      "layer": "bones",
+      "center": [
+        0.10597,
+        -0.04224,
+        0.15493
+      ],
+      "sourceTriangles": 774,
+      "triangles": 700
+    },
+    {
+      "id": "left_third_metacarpal_bone",
+      "sourceIds": [
+        "FMA24469",
+        "FJ3246"
+      ],
+      "nameEn": "left third metacarpal bone",
+      "layer": "bones",
+      "center": [
+        0.26231,
+        0.75284,
+        0.12761
+      ],
+      "sourceTriangles": 708,
+      "triangles": 708
+    },
+    {
+      "id": "left_third_metatarsal_bone",
+      "sourceIds": [
+        "FMA24512",
+        "FJ3247"
+      ],
+      "nameEn": "left third metatarsal bone",
+      "layer": "bones",
+      "center": [
+        0.11596,
+        -0.04509,
+        0.14947
+      ],
+      "sourceTriangles": 742,
+      "triangles": 700
+    },
+    {
+      "id": "left_fourth_metacarpal_bone",
+      "sourceIds": [
+        "FMA24471",
+        "FJ3249"
+      ],
+      "nameEn": "left fourth metacarpal bone",
+      "layer": "bones",
+      "center": [
+        0.24756,
+        0.75524,
+        0.1289
+      ],
+      "sourceTriangles": 528,
+      "triangles": 528
+    },
+    {
+      "id": "left_fourth_metatarsal_bone",
+      "sourceIds": [
+        "FMA24514",
+        "FJ3250"
+      ],
+      "nameEn": "left fourth metatarsal bone",
+      "layer": "bones",
+      "center": [
+        0.12221,
+        -0.04971,
+        0.1382
+      ],
+      "sourceTriangles": 772,
+      "triangles": 700
+    },
+    {
+      "id": "left_fifth_metacarpal_bone",
+      "sourceIds": [
+        "FMA24473",
+        "FJ3252"
+      ],
+      "nameEn": "left fifth metacarpal bone",
+      "layer": "bones",
+      "center": [
+        0.23533,
+        0.7594,
+        0.13232
+      ],
+      "sourceTriangles": 500,
+      "triangles": 500
+    },
+    {
+      "id": "left_fifth_metatarsal_bone",
+      "sourceIds": [
+        "FMA24516",
+        "FJ3253"
+      ],
+      "nameEn": "left fifth metatarsal bone",
+      "layer": "bones",
+      "center": [
+        0.12941,
+        -0.05479,
+        0.12219
+      ],
+      "sourceTriangles": 864,
+      "triangles": 700
+    },
+    {
+      "id": "left_calcaneus",
+      "sourceIds": [
+        "FMA24498",
+        "FJ3256"
+      ],
+      "nameEn": "left calcaneus",
+      "layer": "bones",
+      "center": [
+        0.07289,
+        -0.04374,
+        0.05917
+      ],
+      "sourceTriangles": 1288,
+      "triangles": 700
+    },
+    {
+      "id": "left_capitate",
+      "sourceIds": [
+        "FMA24447",
+        "FJ3257"
+      ],
+      "nameEn": "left capitate",
+      "layer": "bones",
+      "center": [
+        0.25645,
+        0.79338,
+        0.11896
+      ],
+      "sourceTriangles": 402,
+      "triangles": 402
+    },
+    {
+      "id": "left_cuboid_bone",
+      "sourceIds": [
+        "FMA24529",
+        "FJ3258"
+      ],
+      "nameEn": "left cuboid bone",
+      "layer": "bones",
+      "center": [
+        0.09855,
+        -0.03669,
+        0.09992
+      ],
+      "sourceTriangles": 886,
+      "triangles": 700
+    },
+    {
+      "id": "left_femur",
+      "sourceIds": [
+        "FMA24475",
+        "FJ3259"
+      ],
+      "nameEn": "left femur",
+      "layer": "bones",
+      "center": [
+        0.0911,
+        0.60115,
+        0.08088
+      ],
+      "sourceTriangles": 3204,
+      "triangles": 700
+    },
+    {
+      "id": "left_fibula",
+      "sourceIds": [
+        "FMA24481",
+        "FJ3260"
+      ],
+      "nameEn": "left fibula",
+      "layer": "bones",
+      "center": [
+        0.10232,
+        0.16697,
+        0.06333
+      ],
+      "sourceTriangles": 1124,
+      "triangles": 700
+    },
+    {
+      "id": "left_hamate",
+      "sourceIds": [
+        "FMA24449",
+        "FJ3261"
+      ],
+      "nameEn": "left hamate",
+      "layer": "bones",
+      "center": [
+        0.24408,
+        0.79094,
+        0.12265
+      ],
+      "sourceTriangles": 452,
+      "triangles": 452
+    },
+    {
+      "id": "left_humerus",
+      "sourceIds": [
+        "FMA23131",
+        "FJ3262"
+      ],
+      "nameEn": "left humerus",
+      "layer": "bones",
+      "center": [
+        0.19042,
+        1.18286,
+        0.07564
+      ],
+      "sourceTriangles": 3844,
+      "triangles": 700
+    },
+    {
+      "id": "left_inferior_nasal_concha",
+      "sourceIds": [
+        "FMA54738",
+        "FJ3263"
+      ],
+      "nameEn": "left inferior nasal concha",
+      "layer": "bones",
+      "center": [
+        0.01027,
+        1.49036,
+        0.15172
+      ],
+      "sourceTriangles": 738,
+      "triangles": 700
+    },
+    {
+      "id": "left_intermediate_cuneiform_bone",
+      "sourceIds": [
+        "FMA24524",
+        "FJ3264"
+      ],
+      "nameEn": "left intermediate cuneiform bone",
+      "layer": "bones",
+      "center": [
+        0.09198,
+        -0.02287,
+        0.11998
+      ],
+      "sourceTriangles": 466,
+      "triangles": 466
+    },
+    {
+      "id": "left_lacrimal_bone",
+      "sourceIds": [
+        "FMA53646",
+        "FJ3265"
+      ],
+      "nameEn": "left lacrimal bone",
+      "layer": "bones",
+      "center": [
+        0.01263,
+        1.51237,
+        0.15775
+      ],
+      "sourceTriangles": 640,
+      "triangles": 640
+    },
+    {
+      "id": "sesamoid_bone_of_left_foot",
+      "sourceIds": [
+        "FMA45098",
+        "FJ3266"
+      ],
+      "nameEn": "sesamoid bone of left foot",
+      "layer": "bones",
+      "center": [
+        0.09089,
+        -0.06479,
+        0.18014
+      ],
+      "sourceTriangles": 100,
+      "triangles": 100
+    },
+    {
+      "id": "left_lateral_cuneiform_bone",
+      "sourceIds": [
+        "FMA24526",
+        "FJ3267"
+      ],
+      "nameEn": "left lateral cuneiform bone",
+      "layer": "bones",
+      "center": [
+        0.10006,
+        -0.02772,
+        0.11302
+      ],
+      "sourceTriangles": 680,
+      "triangles": 680
+    },
+    {
+      "id": "left_lunate",
+      "sourceIds": [
+        "FMA24438",
+        "FJ3268"
+      ],
+      "nameEn": "left lunate",
+      "layer": "bones",
+      "center": [
+        0.24461,
+        0.80356,
+        0.11888
+      ],
+      "sourceTriangles": 314,
+      "triangles": 314
+    },
+    {
+      "id": "left_maxilla",
+      "sourceIds": [
+        "FMA53650",
+        "FJ3269"
+      ],
+      "nameEn": "left maxilla",
+      "layer": "bones",
+      "center": [
+        0.02136,
+        1.49864,
+        0.15485
+      ],
+      "sourceTriangles": 5198,
+      "triangles": 698
+    },
+    {
+      "id": "sesamoid_bone_of_left_foot__left_side",
+      "sourceIds": [
+        "FMA45098",
+        "FJ3270"
+      ],
+      "nameEn": "sesamoid bone of left foot",
+      "layer": "bones",
+      "center": [
+        0.09893,
+        -0.06561,
+        0.17707
+      ],
+      "sourceTriangles": 144,
+      "triangles": 144
+    },
+    {
+      "id": "left_medial_cuneiform_bone",
+      "sourceIds": [
+        "FMA24522",
+        "FJ3271"
+      ],
+      "nameEn": "left medial cuneiform bone",
+      "layer": "bones",
+      "center": [
+        0.08008,
+        -0.02967,
+        0.12629
+      ],
+      "sourceTriangles": 996,
+      "triangles": 700
+    },
+    {
+      "id": "left_nasal_bone",
+      "sourceIds": [
+        "FMA53648",
+        "FJ3272"
+      ],
+      "nameEn": "left nasal bone",
+      "layer": "bones",
+      "center": [
+        0.00234,
+        1.51767,
+        0.17938
+      ],
+      "sourceTriangles": 438,
+      "triangles": 438
+    },
+    {
+      "id": "left_palatine_bone",
+      "sourceIds": [
+        "FMA53656",
+        "FJ3273"
+      ],
+      "nameEn": "left palatine bone",
+      "layer": "bones",
+      "center": [
+        0.01296,
+        1.49178,
+        0.12664
+      ],
+      "sourceTriangles": 1938,
+      "triangles": 700
+    },
+    {
+      "id": "left_parietal_bone",
+      "sourceIds": [
+        "FMA52789",
+        "FJ3274"
+      ],
+      "nameEn": "left parietal bone",
+      "layer": "bones",
+      "center": [
+        0.03349,
+        1.57704,
+        0.05837
+      ],
+      "sourceTriangles": 13210,
+      "triangles": 698
+    },
+    {
+      "id": "left_patella",
+      "sourceIds": [
+        "FMA24487",
+        "FJ3275"
+      ],
+      "nameEn": "left patella",
+      "layer": "bones",
+      "center": [
+        0.08141,
+        0.38113,
+        0.11183
+      ],
+      "sourceTriangles": 310,
+      "triangles": 310
+    },
+    {
+      "id": "left_pisiform",
+      "sourceIds": [
+        "FMA24442",
+        "FJ3276"
+      ],
+      "nameEn": "left pisiform",
+      "layer": "bones",
+      "center": [
+        0.23593,
+        0.7955,
+        0.13231
+      ],
+      "sourceTriangles": 210,
+      "triangles": 210
+    },
+    {
+      "id": "left_radius",
+      "sourceIds": [
+        "FMA23465",
+        "FJ3277"
+      ],
+      "nameEn": "left radius",
+      "layer": "bones",
+      "center": [
+        0.24949,
+        0.92059,
+        0.09436
+      ],
+      "sourceTriangles": 632,
+      "triangles": 632
+    },
+    {
+      "id": "left_scaphoid",
+      "sourceIds": [
+        "FMA24436",
+        "FJ3278"
+      ],
+      "nameEn": "left scaphoid",
+      "layer": "bones",
+      "center": [
+        0.26121,
+        0.80395,
+        0.11899
+      ],
+      "sourceTriangles": 312,
+      "triangles": 312
+    },
+    {
+      "id": "left_scapula",
+      "sourceIds": [
+        "FMA13396",
+        "FJ3279"
+      ],
+      "nameEn": "left scapula",
+      "layer": "bones",
+      "center": [
+        0.11176,
+        1.2669,
+        0.04888
+      ],
+      "sourceTriangles": 28106,
+      "triangles": 700
+    },
+    {
+      "id": "left_talus",
+      "sourceIds": [
+        "FMA24483",
+        "FJ3280"
+      ],
+      "nameEn": "left talus",
+      "layer": "bones",
+      "center": [
+        0.06991,
+        -0.0141,
+        0.07725
+      ],
+      "sourceTriangles": 1356,
+      "triangles": 700
+    },
+    {
+      "id": "left_temporal_bone",
+      "sourceIds": [
+        "FMA52739",
+        "FJ3281"
+      ],
+      "nameEn": "left temporal bone",
+      "layer": "bones",
+      "center": [
+        0.0421,
+        1.51347,
+        0.08432
+      ],
+      "sourceTriangles": 4936,
+      "triangles": 700
+    },
+    {
+      "id": "left_tibia",
+      "sourceIds": [
+        "FMA24478",
+        "FJ3282"
+      ],
+      "nameEn": "left tibia",
+      "layer": "bones",
+      "center": [
+        0.07224,
+        0.18388,
+        0.08325
+      ],
+      "sourceTriangles": 1692,
+      "triangles": 700
+    },
+    {
+      "id": "left_trapezium",
+      "sourceIds": [
+        "FMA24444",
+        "FJ3283"
+      ],
+      "nameEn": "left trapezium",
+      "layer": "bones",
+      "center": [
+        0.27329,
+        0.79577,
+        0.12613
+      ],
+      "sourceTriangles": 356,
+      "triangles": 356
+    },
+    {
+      "id": "left_trapezoid",
+      "sourceIds": [
+        "FMA24445",
+        "FJ3284"
+      ],
+      "nameEn": "left trapezoid",
+      "layer": "bones",
+      "center": [
+        0.26777,
+        0.789,
+        0.12105
+      ],
+      "sourceTriangles": 398,
+      "triangles": 398
+    },
+    {
+      "id": "left_triquetral",
+      "sourceIds": [
+        "FMA24440",
+        "FJ3285"
+      ],
+      "nameEn": "left triquetral",
+      "layer": "bones",
+      "center": [
+        0.23728,
+        0.79573,
+        0.12212
+      ],
+      "sourceTriangles": 304,
+      "triangles": 304
+    },
+    {
+      "id": "left_ulna",
+      "sourceIds": [
+        "FMA23468",
+        "FJ3286"
+      ],
+      "nameEn": "left ulna",
+      "layer": "bones",
+      "center": [
+        0.22201,
+        0.92874,
+        0.08392
+      ],
+      "sourceTriangles": 824,
+      "triangles": 700
+    },
+    {
+      "id": "left_zygomatic_bone",
+      "sourceIds": [
+        "FMA52893",
+        "FJ3287"
+      ],
+      "nameEn": "left zygomatic bone",
+      "layer": "bones",
+      "center": [
+        0.04757,
+        1.50868,
+        0.14159
+      ],
+      "sourceTriangles": 1434,
+      "triangles": 700
+    },
+    {
+      "id": "left_hip_bone",
+      "sourceIds": [
+        "FMA16587",
+        "FJ3288"
+      ],
+      "nameEn": "left hip bone",
+      "layer": "bones",
+      "center": [
+        0.07375,
+        0.85502,
+        0.0702
+      ],
+      "sourceTriangles": 2332,
+      "triangles": 700
+    },
+    {
+      "id": "mandible",
+      "sourceIds": [
+        "FMA52748",
+        "FJ3289"
+      ],
+      "nameEn": "mandible",
+      "layer": "bones",
+      "center": [
+        -0.00065,
+        1.46387,
+        0.13184
+      ],
+      "sourceTriangles": 5576,
+      "triangles": 700
+    },
+    {
+      "id": "middle_phalanx_of_left_ring_finger",
+      "sourceIds": [
+        "FMA23942",
+        "FJ3291"
+      ],
+      "nameEn": "middle phalanx of left ring finger",
+      "layer": "bones",
+      "center": [
+        0.24866,
+        0.68175,
+        0.16867
+      ],
+      "sourceTriangles": 340,
+      "triangles": 340
+    },
+    {
+      "id": "middle_phalanx_of_right_ring_finger",
+      "sourceIds": [
+        "FMA24457",
+        "FJ3292"
+      ],
+      "nameEn": "middle phalanx of right ring finger",
+      "layer": "bones",
+      "center": [
+        -0.24853,
+        0.68165,
+        0.16855
+      ],
+      "sourceTriangles": 316,
+      "triangles": 316
+    },
+    {
+      "id": "middle_phalanx_of_left_second_toe",
+      "sourceIds": [
+        "FMA32643",
+        "FJ3293"
+      ],
+      "nameEn": "middle phalanx of left second toe",
+      "layer": "bones",
+      "center": [
+        0.13217,
+        -0.06365,
+        0.21608
+      ],
+      "sourceTriangles": 324,
+      "triangles": 324
+    },
+    {
+      "id": "middle_phalanx_of_left_third_toe",
+      "sourceIds": [
+        "FMA32645",
+        "FJ3294"
+      ],
+      "nameEn": "middle phalanx of left third toe",
+      "layer": "bones",
+      "center": [
+        0.14536,
+        -0.06505,
+        0.20738
+      ],
+      "sourceTriangles": 294,
+      "triangles": 294
+    },
+    {
+      "id": "middle_phalanx_of_left_fourth_toe",
+      "sourceIds": [
+        "FMA32647",
+        "FJ3295"
+      ],
+      "nameEn": "middle phalanx of left fourth toe",
+      "layer": "bones",
+      "center": [
+        0.15522,
+        -0.06588,
+        0.19211
+      ],
+      "sourceTriangles": 284,
+      "triangles": 284
+    },
+    {
+      "id": "middle_phalanx_of_left_index_finger",
+      "sourceIds": [
+        "FMA23938",
+        "FJ3296"
+      ],
+      "nameEn": "middle phalanx of left index finger",
+      "layer": "bones",
+      "center": [
+        0.3017,
+        0.68121,
+        0.16166
+      ],
+      "sourceTriangles": 306,
+      "triangles": 306
+    },
+    {
+      "id": "middle_phalanx_of_left_little_finger",
+      "sourceIds": [
+        "FMA23944",
+        "FJ3297"
+      ],
+      "nameEn": "middle phalanx of left little finger",
+      "layer": "bones",
+      "center": [
+        0.22461,
+        0.69726,
+        0.1632
+      ],
+      "sourceTriangles": 254,
+      "triangles": 254
+    },
+    {
+      "id": "middle_phalanx_of_left_little_toe",
+      "sourceIds": [
+        "FMA230988",
+        "FJ3298"
+      ],
+      "nameEn": "middle phalanx of left little toe",
+      "layer": "bones",
+      "center": [
+        0.16239,
+        -0.06692,
+        0.17525
+      ],
+      "sourceTriangles": 226,
+      "triangles": 226
+    },
+    {
+      "id": "middle_phalanx_of_left_middle_finger",
+      "sourceIds": [
+        "FMA23940",
+        "FJ3299"
+      ],
+      "nameEn": "middle phalanx of left middle finger",
+      "layer": "bones",
+      "center": [
+        0.27336,
+        0.67509,
+        0.16937
+      ],
+      "sourceTriangles": 384,
+      "triangles": 384
+    },
+    {
+      "id": "middle_phalanx_of_right_second_toe",
+      "sourceIds": [
+        "FMA32642",
+        "FJ3300"
+      ],
+      "nameEn": "middle phalanx of right second toe",
+      "layer": "bones",
+      "center": [
+        -0.1323,
+        -0.06371,
+        0.21617
+      ],
+      "sourceTriangles": 264,
+      "triangles": 264
+    },
+    {
+      "id": "middle_phalanx_of_right_third_toe",
+      "sourceIds": [
+        "FMA32644",
+        "FJ3301"
+      ],
+      "nameEn": "middle phalanx of right third toe",
+      "layer": "bones",
+      "center": [
+        -0.14531,
+        -0.06487,
+        0.20731
+      ],
+      "sourceTriangles": 292,
+      "triangles": 292
+    },
+    {
+      "id": "middle_phalanx_of_right_fourth_toe",
+      "sourceIds": [
+        "FMA32646",
+        "FJ3302"
+      ],
+      "nameEn": "middle phalanx of right fourth toe",
+      "layer": "bones",
+      "center": [
+        -0.15521,
+        -0.06591,
+        0.19212
+      ],
+      "sourceTriangles": 350,
+      "triangles": 350
+    },
+    {
+      "id": "middle_phalanx_of_right_index_finger",
+      "sourceIds": [
+        "FMA24455",
+        "FJ3303"
+      ],
+      "nameEn": "middle phalanx of right index finger",
+      "layer": "bones",
+      "center": [
+        -0.3017,
+        0.68124,
+        0.1617
+      ],
+      "sourceTriangles": 264,
+      "triangles": 264
+    },
+    {
+      "id": "middle_phalanx_of_right_little_finger",
+      "sourceIds": [
+        "FMA24458",
+        "FJ3304"
+      ],
+      "nameEn": "middle phalanx of right little finger",
+      "layer": "bones",
+      "center": [
+        -0.22474,
+        0.69736,
+        0.16313
+      ],
+      "sourceTriangles": 208,
+      "triangles": 208
+    },
+    {
+      "id": "middle_phalanx_of_right_little_toe",
+      "sourceIds": [
+        "FMA230986",
+        "FJ3305"
+      ],
+      "nameEn": "middle phalanx of right little toe",
+      "layer": "bones",
+      "center": [
+        -0.16239,
+        -0.06691,
+        0.17513
+      ],
+      "sourceTriangles": 136,
+      "triangles": 136
+    },
+    {
+      "id": "middle_phalanx_of_right_middle_finger",
+      "sourceIds": [
+        "FMA24456",
+        "FJ3306"
+      ],
+      "nameEn": "middle phalanx of right middle finger",
+      "layer": "bones",
+      "center": [
+        -0.2734,
+        0.67513,
+        0.16937
+      ],
+      "sourceTriangles": 342,
+      "triangles": 342
+    },
+    {
+      "id": "navicular_bone_of_left_foot",
+      "sourceIds": [
+        "FMA24501",
+        "FJ3307"
+      ],
+      "nameEn": "navicular bone of left foot",
+      "layer": "bones",
+      "center": [
+        0.07729,
+        -0.01864,
+        0.10769
+      ],
+      "sourceTriangles": 744,
+      "triangles": 700
+    },
+    {
+      "id": "navicular_bone_of_right_foot",
+      "sourceIds": [
+        "FMA24500",
+        "FJ3308"
+      ],
+      "nameEn": "navicular bone of right foot",
+      "layer": "bones",
+      "center": [
+        -0.07747,
+        -0.01847,
+        0.10766
+      ],
+      "sourceTriangles": 716,
+      "triangles": 700
+    },
+    {
+      "id": "occipital_bone",
+      "sourceIds": [
+        "FMA52735",
+        "FJ3309"
+      ],
+      "nameEn": "occipital bone",
+      "layer": "bones",
+      "center": [
+        -0.00063,
+        1.53114,
+        0.04148
+      ],
+      "sourceTriangles": 12450,
+      "triangles": 700
+    },
+    {
+      "id": "proximal_phalanx_of_right_big_toe",
+      "sourceIds": [
+        "FMA43253",
+        "FJ3310"
+      ],
+      "nameEn": "proximal phalanx of right big toe",
+      "layer": "bones",
+      "center": [
+        -0.10193,
+        -0.06002,
+        0.20268
+      ],
+      "sourceTriangles": 486,
+      "triangles": 486
+    },
+    {
+      "id": "proximal_phalanx_of_left_third_toe",
+      "sourceIds": [
+        "FMA32637",
+        "FJ3311"
+      ],
+      "nameEn": "proximal phalanx of left third toe",
+      "layer": "bones",
+      "center": [
+        0.13547,
+        -0.06181,
+        0.18873
+      ],
+      "sourceTriangles": 408,
+      "triangles": 408
+    },
+    {
+      "id": "proximal_phalanx_of_left_fourth_toe",
+      "sourceIds": [
+        "FMA32639",
+        "FJ3312"
+      ],
+      "nameEn": "proximal phalanx of left fourth toe",
+      "layer": "bones",
+      "center": [
+        0.1451,
+        -0.06312,
+        0.17643
+      ],
+      "sourceTriangles": 438,
+      "triangles": 438
+    },
+    {
+      "id": "proximal_phalanx_of_left_index_finger",
+      "sourceIds": [
+        "FMA71915",
+        "FJ3313"
+      ],
+      "nameEn": "proximal phalanx of left index finger",
+      "layer": "bones",
+      "center": [
+        0.29181,
+        0.70454,
+        0.14557
+      ],
+      "sourceTriangles": 392,
+      "triangles": 392
+    },
+    {
+      "id": "proximal_phalanx_of_left_little_finger",
+      "sourceIds": [
+        "FMA66791",
+        "FJ3314"
+      ],
+      "nameEn": "proximal phalanx of left little finger",
+      "layer": "bones",
+      "center": [
+        0.22926,
+        0.71959,
+        0.14906
+      ],
+      "sourceTriangles": 274,
+      "triangles": 274
+    },
+    {
+      "id": "proximal_phalanx_of_left_little_toe",
+      "sourceIds": [
+        "FMA32641",
+        "FJ3315"
+      ],
+      "nameEn": "proximal phalanx of left little toe",
+      "layer": "bones",
+      "center": [
+        0.15386,
+        -0.0649,
+        0.1614
+      ],
+      "sourceTriangles": 396,
+      "triangles": 396
+    },
+    {
+      "id": "proximal_phalanx_of_left_middle_finger",
+      "sourceIds": [
+        "FMA71908",
+        "FJ3316"
+      ],
+      "nameEn": "proximal phalanx of left middle finger",
+      "layer": "bones",
+      "center": [
+        0.26829,
+        0.70463,
+        0.14964
+      ],
+      "sourceTriangles": 460,
+      "triangles": 460
+    },
+    {
+      "id": "proximal_phalanx_of_left_ring_finger",
+      "sourceIds": [
+        "FMA71916",
+        "FJ3317"
+      ],
+      "nameEn": "proximal phalanx of left ring finger",
+      "layer": "bones",
+      "center": [
+        0.24719,
+        0.7095,
+        0.14882
+      ],
+      "sourceTriangles": 376,
+      "triangles": 376
+    },
+    {
+      "id": "proximal_phalanx_of_left_thumb",
+      "sourceIds": [
+        "FMA65470",
+        "FJ3318"
+      ],
+      "nameEn": "proximal phalanx of left thumb",
+      "layer": "bones",
+      "center": [
+        0.30866,
+        0.75135,
+        0.15369
+      ],
+      "sourceTriangles": 346,
+      "triangles": 346
+    },
+    {
+      "id": "proximal_phalanx_of_right_second_toe",
+      "sourceIds": [
+        "FMA32634",
+        "FJ3319"
+      ],
+      "nameEn": "proximal phalanx of right second toe",
+      "layer": "bones",
+      "center": [
+        -0.12246,
+        -0.06071,
+        0.19762
+      ],
+      "sourceTriangles": 414,
+      "triangles": 414
+    },
+    {
+      "id": "proximal_phalanx_of_right_third_toe",
+      "sourceIds": [
+        "FMA32636",
+        "FJ3320"
+      ],
+      "nameEn": "proximal phalanx of right third toe",
+      "layer": "bones",
+      "center": [
+        -0.13549,
+        -0.06192,
+        0.18864
+      ],
+      "sourceTriangles": 422,
+      "triangles": 422
+    },
+    {
+      "id": "proximal_phalanx_of_right_fourth_toe",
+      "sourceIds": [
+        "FMA32638",
+        "FJ3321"
+      ],
+      "nameEn": "proximal phalanx of right fourth toe",
+      "layer": "bones",
+      "center": [
+        -0.14513,
+        -0.06312,
+        0.1764
+      ],
+      "sourceTriangles": 438,
+      "triangles": 438
+    },
+    {
+      "id": "proximal_phalanx_of_right_index_finger",
+      "sourceIds": [
+        "FMA24451",
+        "FJ3322"
+      ],
+      "nameEn": "proximal phalanx of right index finger",
+      "layer": "bones",
+      "center": [
+        -0.29186,
+        0.70451,
+        0.14543
+      ],
+      "sourceTriangles": 386,
+      "triangles": 386
+    },
+    {
+      "id": "proximal_phalanx_of_right_little_finger",
+      "sourceIds": [
+        "FMA24454",
+        "FJ3323"
+      ],
+      "nameEn": "proximal phalanx of right little finger",
+      "layer": "bones",
+      "center": [
+        -0.22924,
+        0.71966,
+        0.14912
+      ],
+      "sourceTriangles": 314,
+      "triangles": 314
+    },
+    {
+      "id": "proximal_phalanx_of_right_little_toe",
+      "sourceIds": [
+        "FMA32640",
+        "FJ3324"
+      ],
+      "nameEn": "proximal phalanx of right little toe",
+      "layer": "bones",
+      "center": [
+        -0.15386,
+        -0.06497,
+        0.1614
+      ],
+      "sourceTriangles": 406,
+      "triangles": 406
+    },
+    {
+      "id": "proximal_phalanx_of_right_middle_finger",
+      "sourceIds": [
+        "FMA24452",
+        "FJ3325"
+      ],
+      "nameEn": "proximal phalanx of right middle finger",
+      "layer": "bones",
+      "center": [
+        -0.26831,
+        0.70457,
+        0.14966
+      ],
+      "sourceTriangles": 458,
+      "triangles": 458
+    },
+    {
+      "id": "proximal_phalanx_of_right_ring_finger",
+      "sourceIds": [
+        "FMA24453",
+        "FJ3326"
+      ],
+      "nameEn": "proximal phalanx of right ring finger",
+      "layer": "bones",
+      "center": [
+        -0.24721,
+        0.70945,
+        0.14882
+      ],
+      "sourceTriangles": 376,
+      "triangles": 376
+    },
+    {
+      "id": "proximal_phalanx_of_right_thumb",
+      "sourceIds": [
+        "FMA24450",
+        "FJ3327"
+      ],
+      "nameEn": "proximal phalanx of right thumb",
+      "layer": "bones",
+      "center": [
+        -0.30873,
+        0.7514,
+        0.15377
+      ],
+      "sourceTriangles": 318,
+      "triangles": 318
+    },
+    {
+      "id": "proximal_phalanx_of_left_second_toe",
+      "sourceIds": [
+        "FMA32635",
+        "FJ3328"
+      ],
+      "nameEn": "proximal phalanx of left second toe",
+      "layer": "bones",
+      "center": [
+        0.12247,
+        -0.06066,
+        0.19755
+      ],
+      "sourceTriangles": 380,
+      "triangles": 380
+    },
+    {
+      "id": "proximal_phalanx_of_left_big_toe",
+      "sourceIds": [
+        "FMA43254",
+        "FJ3329"
+      ],
+      "nameEn": "proximal phalanx of left big toe",
+      "layer": "bones",
+      "center": [
+        0.10189,
+        -0.05998,
+        0.20265
+      ],
+      "sourceTriangles": 516,
+      "triangles": 516
+    },
+    {
+      "id": "right_tenth_rib",
+      "sourceIds": [
+        "FMA8445",
+        "FJ3330"
+      ],
+      "nameEn": "right tenth rib",
+      "layer": "bones",
+      "center": [
+        -0.07026,
+        1.09098,
+        0.06452
+      ],
+      "sourceTriangles": 6820,
+      "triangles": 700
+    },
+    {
+      "id": "right_eleventh_rib",
+      "sourceIds": [
+        "FMA8531",
+        "FJ3331"
+      ],
+      "nameEn": "right eleventh rib",
+      "layer": "bones",
+      "center": [
+        -0.06447,
+        1.0649,
+        0.05699
+      ],
+      "sourceTriangles": 4866,
+      "triangles": 700
+    },
+    {
+      "id": "right_twelfth_rib",
+      "sourceIds": [
+        "FMA8533",
+        "FJ3332"
+      ],
+      "nameEn": "right twelfth rib",
+      "layer": "bones",
+      "center": [
+        -0.05237,
+        1.05026,
+        0.04704
+      ],
+      "sourceTriangles": 2818,
+      "triangles": 700
+    },
+    {
+      "id": "right_first_rib",
+      "sourceIds": [
+        "FMA7857",
+        "FJ3334"
+      ],
+      "nameEn": "right first rib",
+      "layer": "bones",
+      "center": [
+        -0.04244,
+        1.34027,
+        0.09742
+      ],
+      "sourceTriangles": 3276,
+      "triangles": 700
+    },
+    {
+      "id": "right_second_rib",
+      "sourceIds": [
+        "FMA7882",
+        "FJ3336"
+      ],
+      "nameEn": "right second rib",
+      "layer": "bones",
+      "center": [
+        -0.05651,
+        1.31629,
+        0.1089
+      ],
+      "sourceTriangles": 5594,
+      "triangles": 698
+    },
+    {
+      "id": "right_third_rib",
+      "sourceIds": [
+        "FMA7909",
+        "FJ3338"
+      ],
+      "nameEn": "right third rib",
+      "layer": "bones",
+      "center": [
+        -0.06149,
+        1.28989,
+        0.10805
+      ],
+      "sourceTriangles": 7254,
+      "triangles": 700
+    },
+    {
+      "id": "right_fourth_rib",
+      "sourceIds": [
+        "FMA7957",
+        "FJ3340"
+      ],
+      "nameEn": "right fourth rib",
+      "layer": "bones",
+      "center": [
+        -0.0663,
+        1.26323,
+        0.10769
+      ],
+      "sourceTriangles": 8832,
+      "triangles": 700
+    },
+    {
+      "id": "right_fifth_rib",
+      "sourceIds": [
+        "FMA8066",
+        "FJ3342"
+      ],
+      "nameEn": "right fifth rib",
+      "layer": "bones",
+      "center": [
+        -0.0712,
+        1.23174,
+        0.10519
+      ],
+      "sourceTriangles": 9710,
+      "triangles": 700
+    },
+    {
+      "id": "right_sixth_rib",
+      "sourceIds": [
+        "FMA8175",
+        "FJ3344"
+      ],
+      "nameEn": "right sixth rib",
+      "layer": "bones",
+      "center": [
+        -0.07459,
+        1.2018,
+        0.09857
+      ],
+      "sourceTriangles": 10246,
+      "triangles": 700
+    },
+    {
+      "id": "right_seventh_rib",
+      "sourceIds": [
+        "FMA8229",
+        "FJ3346"
+      ],
+      "nameEn": "right seventh rib",
+      "layer": "bones",
+      "center": [
+        -0.07539,
+        1.17273,
+        0.09234
+      ],
+      "sourceTriangles": 10032,
+      "triangles": 700
+    },
+    {
+      "id": "right_eighth_rib",
+      "sourceIds": [
+        "FMA8283",
+        "FJ3347"
+      ],
+      "nameEn": "right eighth rib",
+      "layer": "bones",
+      "center": [
+        -0.07332,
+        1.14299,
+        0.08362
+      ],
+      "sourceTriangles": 8336,
+      "triangles": 700
+    },
+    {
+      "id": "right_ninth_rib",
+      "sourceIds": [
+        "FMA8364",
+        "FJ3348"
+      ],
+      "nameEn": "right ninth rib",
+      "layer": "bones",
+      "center": [
+        -0.07248,
+        1.11773,
+        0.07158
+      ],
+      "sourceTriangles": 7576,
+      "triangles": 700
+    },
+    {
+      "id": "right_radius",
+      "sourceIds": [
+        "FMA23464",
+        "FJ3349"
+      ],
+      "nameEn": "right radius",
+      "layer": "bones",
+      "center": [
+        -0.24968,
+        0.92044,
+        0.09401
+      ],
+      "sourceTriangles": 672,
+      "triangles": 672
+    },
+    {
+      "id": "right_first_metacarpal_bone",
+      "sourceIds": [
+        "FMA24464",
+        "FJ3350"
+      ],
+      "nameEn": "right first metacarpal bone",
+      "layer": "bones",
+      "center": [
+        -0.29091,
+        0.77876,
+        0.13874
+      ],
+      "sourceTriangles": 566,
+      "triangles": 566
+    },
+    {
+      "id": "right_first_metatarsal_bone",
+      "sourceIds": [
+        "FMA24507",
+        "FJ3351"
+      ],
+      "nameEn": "right first metatarsal bone",
+      "layer": "bones",
+      "center": [
+        -0.08959,
+        -0.04372,
+        0.16106
+      ],
+      "sourceTriangles": 1122,
+      "triangles": 700
+    },
+    {
+      "id": "right_second_metacarpal_bone",
+      "sourceIds": [
+        "FMA24466",
+        "FJ3352"
+      ],
+      "nameEn": "right second metacarpal bone",
+      "layer": "bones",
+      "center": [
+        -0.27725,
+        0.75287,
+        0.12992
+      ],
+      "sourceTriangles": 748,
+      "triangles": 700
+    },
+    {
+      "id": "right_second_metatarsal_bone",
+      "sourceIds": [
+        "FMA24509",
+        "FJ3353"
+      ],
+      "nameEn": "right second metatarsal bone",
+      "layer": "bones",
+      "center": [
+        -0.10596,
+        -0.04232,
+        0.15493
+      ],
+      "sourceTriangles": 752,
+      "triangles": 700
+    },
+    {
+      "id": "right_third_metacarpal_bone",
+      "sourceIds": [
+        "FMA24468",
+        "FJ3354"
+      ],
+      "nameEn": "right third metacarpal bone",
+      "layer": "bones",
+      "center": [
+        -0.26242,
+        0.75305,
+        0.12753
+      ],
+      "sourceTriangles": 702,
+      "triangles": 702
+    },
+    {
+      "id": "right_third_metatarsal_bone",
+      "sourceIds": [
+        "FMA24511",
+        "FJ3355"
+      ],
+      "nameEn": "right third metatarsal bone",
+      "layer": "bones",
+      "center": [
+        -0.11596,
+        -0.04502,
+        0.14961
+      ],
+      "sourceTriangles": 700,
+      "triangles": 700
+    },
+    {
+      "id": "right_fourth_metacarpal_bone",
+      "sourceIds": [
+        "FMA24470",
+        "FJ3356"
+      ],
+      "nameEn": "right fourth metacarpal bone",
+      "layer": "bones",
+      "center": [
+        -0.24758,
+        0.75522,
+        0.12894
+      ],
+      "sourceTriangles": 536,
+      "triangles": 536
+    },
+    {
+      "id": "right_fourth_metatarsal_bone",
+      "sourceIds": [
+        "FMA24513",
+        "FJ3357"
+      ],
+      "nameEn": "right fourth metatarsal bone",
+      "layer": "bones",
+      "center": [
+        -0.12227,
+        -0.04965,
+        0.13833
+      ],
+      "sourceTriangles": 674,
+      "triangles": 674
+    },
+    {
+      "id": "right_fifth_metacarpal_bone",
+      "sourceIds": [
+        "FMA24472",
+        "FJ3358"
+      ],
+      "nameEn": "right fifth metacarpal bone",
+      "layer": "bones",
+      "center": [
+        -0.23526,
+        0.75947,
+        0.1323
+      ],
+      "sourceTriangles": 506,
+      "triangles": 506
+    },
+    {
+      "id": "right_fifth_metatarsal_bone",
+      "sourceIds": [
+        "FMA24515",
+        "FJ3359"
+      ],
+      "nameEn": "right fifth metatarsal bone",
+      "layer": "bones",
+      "center": [
+        -0.12939,
+        -0.05485,
+        0.12223
+      ],
+      "sourceTriangles": 794,
+      "triangles": 700
+    },
+    {
+      "id": "right_calcaneus",
+      "sourceIds": [
+        "FMA24497",
+        "FJ3360"
+      ],
+      "nameEn": "right calcaneus",
+      "layer": "bones",
+      "center": [
+        -0.07283,
+        -0.04382,
+        0.05908
+      ],
+      "sourceTriangles": 1262,
+      "triangles": 700
+    },
+    {
+      "id": "right_capitate",
+      "sourceIds": [
+        "FMA24446",
+        "FJ3361"
+      ],
+      "nameEn": "right capitate",
+      "layer": "bones",
+      "center": [
+        -0.25644,
+        0.79339,
+        0.11901
+      ],
+      "sourceTriangles": 428,
+      "triangles": 428
+    },
+    {
+      "id": "right_clavicle",
+      "sourceIds": [
+        "FMA13322",
+        "FJ3362"
+      ],
+      "nameEn": "right clavicle",
+      "layer": "bones",
+      "center": [
+        -0.07747,
+        1.33203,
+        0.10068
+      ],
+      "sourceTriangles": 1146,
+      "triangles": 700
+    },
+    {
+      "id": "right_cuboid_bone",
+      "sourceIds": [
+        "FMA24528",
+        "FJ3364"
+      ],
+      "nameEn": "right cuboid bone",
+      "layer": "bones",
+      "center": [
+        -0.09873,
+        -0.0366,
+        0.10025
+      ],
+      "sourceTriangles": 932,
+      "triangles": 700
+    },
+    {
+      "id": "right_femur",
+      "sourceIds": [
+        "FMA24474",
+        "FJ3365"
+      ],
+      "nameEn": "right femur",
+      "layer": "bones",
+      "center": [
+        -0.09101,
+        0.6012,
+        0.08086
+      ],
+      "sourceTriangles": 3102,
+      "triangles": 700
+    },
+    {
+      "id": "right_fibula",
+      "sourceIds": [
+        "FMA24480",
+        "FJ3366"
+      ],
+      "nameEn": "right fibula",
+      "layer": "bones",
+      "center": [
+        -0.10225,
+        0.16694,
+        0.06333
+      ],
+      "sourceTriangles": 1142,
+      "triangles": 700
+    },
+    {
+      "id": "right_hamate",
+      "sourceIds": [
+        "FMA24448",
+        "FJ3367"
+      ],
+      "nameEn": "right hamate",
+      "layer": "bones",
+      "center": [
+        -0.24426,
+        0.79097,
+        0.12267
+      ],
+      "sourceTriangles": 522,
+      "triangles": 522
+    },
+    {
+      "id": "right_humerus",
+      "sourceIds": [
+        "FMA23130",
+        "FJ3368"
+      ],
+      "nameEn": "right humerus",
+      "layer": "bones",
+      "center": [
+        -0.19047,
+        1.18287,
+        0.07563
+      ],
+      "sourceTriangles": 3784,
+      "triangles": 700
+    },
+    {
+      "id": "right_inferior_nasal_concha",
+      "sourceIds": [
+        "FMA54737",
+        "FJ3369"
+      ],
+      "nameEn": "right inferior nasal concha",
+      "layer": "bones",
+      "center": [
+        -0.01161,
+        1.4885,
+        0.14814
+      ],
+      "sourceTriangles": 714,
+      "triangles": 714
+    },
+    {
+      "id": "right_intermediate_cuneiform_bone",
+      "sourceIds": [
+        "FMA24523",
+        "FJ3370"
+      ],
+      "nameEn": "right intermediate cuneiform bone",
+      "layer": "bones",
+      "center": [
+        -0.09193,
+        -0.02291,
+        0.12006
+      ],
+      "sourceTriangles": 450,
+      "triangles": 450
+    },
+    {
+      "id": "right_lacrimal_bone",
+      "sourceIds": [
+        "FMA53645",
+        "FJ3371"
+      ],
+      "nameEn": "right lacrimal bone",
+      "layer": "bones",
+      "center": [
+        -0.01276,
+        1.51461,
+        0.15823
+      ],
+      "sourceTriangles": 702,
+      "triangles": 702
+    },
+    {
+      "id": "sesamoid_bone_of_right_foot",
+      "sourceIds": [
+        "FMA45097",
+        "FJ3372"
+      ],
+      "nameEn": "sesamoid bone of right foot",
+      "layer": "bones",
+      "center": [
+        -0.09061,
+        -0.06469,
+        0.18014
+      ],
+      "sourceTriangles": 80,
+      "triangles": 80
+    },
+    {
+      "id": "right_lateral_cuneiform_bone",
+      "sourceIds": [
+        "FMA24525",
+        "FJ3373"
+      ],
+      "nameEn": "right lateral cuneiform bone",
+      "layer": "bones",
+      "center": [
+        -0.10004,
+        -0.02771,
+        0.11303
+      ],
+      "sourceTriangles": 626,
+      "triangles": 626
+    },
+    {
+      "id": "right_lunate",
+      "sourceIds": [
+        "FMA24437",
+        "FJ3374"
+      ],
+      "nameEn": "right lunate",
+      "layer": "bones",
+      "center": [
+        -0.24446,
+        0.80364,
+        0.11878
+      ],
+      "sourceTriangles": 332,
+      "triangles": 332
+    },
+    {
+      "id": "right_maxilla",
+      "sourceIds": [
+        "FMA53649",
+        "FJ3375"
+      ],
+      "nameEn": "right maxilla",
+      "layer": "bones",
+      "center": [
+        -0.02393,
+        1.49867,
+        0.1567
+      ],
+      "sourceTriangles": 5324,
+      "triangles": 700
+    },
+    {
+      "id": "sesamoid_bone_of_right_foot__right_side",
+      "sourceIds": [
+        "FMA45097",
+        "FJ3376"
+      ],
+      "nameEn": "sesamoid bone of right foot",
+      "layer": "bones",
+      "center": [
+        -0.09889,
+        -0.06549,
+        0.17715
+      ],
+      "sourceTriangles": 158,
+      "triangles": 158
+    },
+    {
+      "id": "right_medial_cuneiform_bone",
+      "sourceIds": [
+        "FMA24521",
+        "FJ3377"
+      ],
+      "nameEn": "right medial cuneiform bone",
+      "layer": "bones",
+      "center": [
+        -0.08007,
+        -0.02975,
+        0.12624
+      ],
+      "sourceTriangles": 952,
+      "triangles": 700
+    },
+    {
+      "id": "right_nasal_bone",
+      "sourceIds": [
+        "FMA53647",
+        "FJ3378"
+      ],
+      "nameEn": "right nasal bone",
+      "layer": "bones",
+      "center": [
+        -0.00495,
+        1.51718,
+        0.18021
+      ],
+      "sourceTriangles": 416,
+      "triangles": 416
+    },
+    {
+      "id": "right_palatine_bone",
+      "sourceIds": [
+        "FMA53655",
+        "FJ3379"
+      ],
+      "nameEn": "right palatine bone",
+      "layer": "bones",
+      "center": [
+        -0.01433,
+        1.4919,
+        0.12661
+      ],
+      "sourceTriangles": 1736,
+      "triangles": 700
+    },
+    {
+      "id": "right_parietal_bone",
+      "sourceIds": [
+        "FMA52788",
+        "FJ3380"
+      ],
+      "nameEn": "right parietal bone",
+      "layer": "bones",
+      "center": [
+        -0.03559,
+        1.57708,
+        0.05653
+      ],
+      "sourceTriangles": 13002,
+      "triangles": 698
+    },
+    {
+      "id": "right_patella",
+      "sourceIds": [
+        "FMA24486",
+        "FJ3381"
+      ],
+      "nameEn": "right patella",
+      "layer": "bones",
+      "center": [
+        -0.08145,
+        0.38114,
+        0.11186
+      ],
+      "sourceTriangles": 306,
+      "triangles": 306
+    },
+    {
+      "id": "right_pisiform",
+      "sourceIds": [
+        "FMA24441",
+        "FJ3382"
+      ],
+      "nameEn": "right pisiform",
+      "layer": "bones",
+      "center": [
+        -0.23609,
+        0.7955,
+        0.13245
+      ],
+      "sourceTriangles": 190,
+      "triangles": 190
+    },
+    {
+      "id": "right_scaphoid",
+      "sourceIds": [
+        "FMA24435",
+        "FJ3383"
+      ],
+      "nameEn": "right scaphoid",
+      "layer": "bones",
+      "center": [
+        -0.2612,
+        0.80407,
+        0.11912
+      ],
+      "sourceTriangles": 322,
+      "triangles": 322
+    },
+    {
+      "id": "right_scapula",
+      "sourceIds": [
+        "FMA13395",
+        "FJ3384"
+      ],
+      "nameEn": "right scapula",
+      "layer": "bones",
+      "center": [
+        -0.11176,
+        1.26691,
+        0.04889
+      ],
+      "sourceTriangles": 26172,
+      "triangles": 700
+    },
+    {
+      "id": "right_talus",
+      "sourceIds": [
+        "FMA24482",
+        "FJ3385"
+      ],
+      "nameEn": "right talus",
+      "layer": "bones",
+      "center": [
+        -0.06987,
+        -0.01402,
+        0.07716
+      ],
+      "sourceTriangles": 1380,
+      "triangles": 700
+    },
+    {
+      "id": "right_temporal_bone",
+      "sourceIds": [
+        "FMA52738",
+        "FJ3386"
+      ],
+      "nameEn": "right temporal bone",
+      "layer": "bones",
+      "center": [
+        -0.04334,
+        1.51355,
+        0.08437
+      ],
+      "sourceTriangles": 4928,
+      "triangles": 700
+    },
+    {
+      "id": "right_tibia",
+      "sourceIds": [
+        "FMA24477",
+        "FJ3387"
+      ],
+      "nameEn": "right tibia",
+      "layer": "bones",
+      "center": [
+        -0.07228,
+        0.18394,
+        0.08345
+      ],
+      "sourceTriangles": 1664,
+      "triangles": 700
+    },
+    {
+      "id": "right_trapezium",
+      "sourceIds": [
+        "FMA24443",
+        "FJ3388"
+      ],
+      "nameEn": "right trapezium",
+      "layer": "bones",
+      "center": [
+        -0.27333,
+        0.79577,
+        0.12615
+      ],
+      "sourceTriangles": 434,
+      "triangles": 434
+    },
+    {
+      "id": "right_trapezoid",
+      "sourceIds": [
+        "FMA23725",
+        "FJ3389"
+      ],
+      "nameEn": "right trapezoid",
+      "layer": "bones",
+      "center": [
+        -0.2677,
+        0.78909,
+        0.12096
+      ],
+      "sourceTriangles": 360,
+      "triangles": 360
+    },
+    {
+      "id": "right_triquetral",
+      "sourceIds": [
+        "FMA24439",
+        "FJ3390"
+      ],
+      "nameEn": "right triquetral",
+      "layer": "bones",
+      "center": [
+        -0.23746,
+        0.79568,
+        0.12218
+      ],
+      "sourceTriangles": 170,
+      "triangles": 170
+    },
+    {
+      "id": "right_ulna",
+      "sourceIds": [
+        "FMA23467",
+        "FJ3391"
+      ],
+      "nameEn": "right ulna",
+      "layer": "bones",
+      "center": [
+        -0.22203,
+        0.92881,
+        0.08415
+      ],
+      "sourceTriangles": 834,
+      "triangles": 700
+    },
+    {
+      "id": "right_zygomatic_bone",
+      "sourceIds": [
+        "FMA52892",
+        "FJ3392"
+      ],
+      "nameEn": "right zygomatic bone",
+      "layer": "bones",
+      "center": [
+        -0.04891,
+        1.50864,
+        0.14161
+      ],
+      "sourceTriangles": 1556,
+      "triangles": 700
+    },
+    {
+      "id": "sacrum",
+      "sourceIds": [
+        "FMA16202",
+        "FJ3393"
+      ],
+      "nameEn": "sacrum",
+      "layer": "bones",
+      "center": [
+        -0.00069,
+        0.85502,
+        0.03707
+      ],
+      "sourceTriangles": 9922,
+      "triangles": 700
+    },
+    {
+      "id": "sphenoid_bone",
+      "sourceIds": [
+        "FMA52736",
+        "FJ3394"
+      ],
+      "nameEn": "sphenoid bone",
+      "layer": "bones",
+      "center": [
+        -0.00064,
+        1.51368,
+        0.11772
+      ],
+      "sourceTriangles": 8154,
+      "triangles": 700
+    },
+    {
+      "id": "vomer",
+      "sourceIds": [
+        "FMA9710",
+        "FJ3395"
+      ],
+      "nameEn": "vomer",
+      "layer": "bones",
+      "center": [
+        -0.00065,
+        1.49635,
+        0.13828
+      ],
+      "sourceTriangles": 7218,
+      "triangles": 700
+    }
+  ],
+  "joints": [],
+  "limitations": [
+    "Visão geral simplificada (até 900 triângulos por osso) para carregamento rápido; não usar para close-ups."
+  ],
+  "generatedAt": "2026-10-21T03:44:36.506Z"
+}

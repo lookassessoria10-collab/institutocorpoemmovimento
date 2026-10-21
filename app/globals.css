@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --creme: #fbf7f1;
+  --roxo-700: #3d1153;
+  --ouro: #d6b469;
+  --palco: #140a1c;
+  --gutter: clamp(16px, 4vw, 40px);
+}
+
+html,
+body {
+  overscroll-behavior-y: none;
+}
+
+body {
+  background-color: var(--creme);
+}
+
+/* Foco visível e consistente em toda a interface */
+:focus-visible {
+  outline: 2px solid var(--ouro);
+  outline-offset: 2px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* O canvas 3D captura gestos: impede que um dedo sobre o modelo role a
+   página (o gesto de rolagem continua disponível fora do visualizador). */
+.viewer-surface {
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.scrollbar-fina {
+  scrollbar-width: thin;
+  scrollbar-color: #34243f transparent;
+}
+
+/* Movimento reduzido: remove transições decorativas da interface.
+   A câmera 3D também respeita a preferência (ver modules/anatomy/viewer). */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Controle deslizante na identidade (trilho pintado inline; polegar dourado). */
+.range-landim::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 9999px;
+  background: #fbf7f1;
+  border: 2px solid #d6b469;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+.range-landim::-moz-range-thumb {
+  height: 14px;
+  width: 14px;
+  border-radius: 9999px;
+  background: #fbf7f1;
+  border: 2px solid #d6b469;
+}
+.range-landim:focus-visible {
+  outline: 2px solid #d6b469;
+  outline-offset: 4px;
+}
