@@ -25,25 +25,25 @@ export default function CreditsPage() {
             Regiões do corpo
           </Link>
         </header>
-        <article className="mx-auto max-w-5xl space-y-10 px-5 pb-20 sm:px-10">
+        <article className="mx-auto max-w-5xl space-y-10 break-words px-4 pb-20 [overflow-wrap:anywhere] sm:px-10">
           <header>
             <p className="text-[11px] font-semibold uppercase tracking-[0.25em] text-landim-ouroTitulo">Corpo em Movimento</p>
-            <h1 className="mt-3 text-4xl font-bold tracking-tight text-landim-roxo700">Créditos e licenças</h1>
+            <h1 className="mt-3 text-3xl font-bold tracking-tight text-landim-roxo700 sm:text-4xl">Créditos e licenças</h1>
             <p className="mt-4 max-w-3xl text-landim-suave">
               Todos os modelos anatômicos deste atlas vêm de uma única fonte científica, com licença que permite uso institucional e adaptação, mediante
               atribuição.
             </p>
           </header>
 
-          <section className="rounded-landim border border-landim-linha bg-white p-6">
+          <section className="rounded-landim border border-landim-linha bg-white p-4 sm:p-6">
             <h2 className="text-xl font-bold text-landim-roxo700">{source.name}</h2>
             <p className="mt-3 rounded-xl bg-landim-creme2 px-4 py-3 font-medium">{source.attribution}</p>
-            <dl className="mt-4 grid gap-x-6 gap-y-3 text-sm sm:grid-cols-[180px_1fr]">
-              <dt className="font-semibold">Autor</dt>
+            <dl className="mt-4 grid grid-cols-1 gap-x-6 gap-y-1 text-sm sm:grid-cols-[180px_minmax(0,1fr)] sm:gap-y-3">
+              <dt className="mt-2 font-semibold sm:mt-0">Autor</dt>
               <dd>{source.author}</dd>
-              <dt className="font-semibold">Origem</dt>
+              <dt className="mt-2 font-semibold sm:mt-0">Origem</dt>
               <dd>{source.origin}</dd>
-              <dt className="font-semibold">Licença da fonte</dt>
+              <dt className="mt-2 font-semibold sm:mt-0">Licença da fonte</dt>
               <dd>
                 {source.license} —{" "}
                 <a href={source.licenseUrl} className="text-landim-roxo700 underline">
@@ -54,13 +54,13 @@ export default function CreditsPage() {
                   CC BY 4.0
                 </a>
               </dd>
-              <dt className="font-semibold">Download</dt>
+              <dt className="mt-2 font-semibold sm:mt-0">Download</dt>
               <dd>
                 <a href={source.url} className="text-landim-roxo700 underline">
                   {source.url}
                 </a>
               </dd>
-              <dt className="font-semibold">Modelos derivados</dt>
+              <dt className="mt-2 font-semibold sm:mt-0">Modelos derivados</dt>
               <dd>
                 Os arquivos 3D publicados por este atlas são distribuídos sob{" "}
                 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR" className="text-landim-roxo700 underline">
@@ -68,7 +68,7 @@ export default function CreditsPage() {
                 </a>
                 . {source.shareAlike}
               </dd>
-              <dt className="font-semibold">Modificações feitas</dt>
+              <dt className="mt-2 font-semibold sm:mt-0">Modificações feitas</dt>
               <dd>
                 <ul className="list-disc space-y-1 pl-5">
                   {source.modifications.map((m) => (
@@ -76,7 +76,7 @@ export default function CreditsPage() {
                   ))}
                 </ul>
               </dd>
-              <dt className="font-semibold">Verificado em</dt>
+              <dt className="mt-2 font-semibold sm:mt-0">Verificado em</dt>
               <dd>{new Date(source.verifiedAt + "T12:00:00").toLocaleDateString("pt-BR")}</dd>
             </dl>
           </section>

@@ -5,7 +5,7 @@ import { LandimLogo } from "@/modules/brand/LandimLogo";
 export function SiteFooter() {
   const c = APP_CONFIG.contact;
   return (
-    <footer className="bg-landim-roxo950 px-5 py-12 text-sm text-white/80 sm:px-10">
+    <footer className="break-words bg-landim-roxo950 px-4 py-12 text-sm text-white/80 sm:px-10">
       <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <LandimLogo tone="dark" className="h-7 w-auto" />

@@ -16,7 +16,7 @@ export function Wordmark({
   const sizes = {
     sm: ["text-lg", "text-2xl", "-mt-1"],
     md: ["text-2xl", "text-[2.1rem]", "-mt-2"],
-    lg: ["text-4xl sm:text-5xl", "text-5xl sm:text-6xl", "-mt-3 sm:-mt-4"],
+    lg: ["text-4xl sm:text-5xl", "text-5xl sm:text-6xl", "-mt-1.5 sm:-mt-4"],
     xl: ["text-5xl sm:text-7xl", "text-6xl sm:text-8xl", "-mt-4 sm:-mt-6"],
   }[size];
   return (

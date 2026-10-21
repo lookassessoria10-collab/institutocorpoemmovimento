@@ -1,7 +1,7 @@
 "use client";
 
-import { createPortal, useFrame, type ThreeEvent } from "@react-three/fiber";
-import { Outlines, useGLTF } from "@react-three/drei";
+import { useFrame, type ThreeEvent } from "@react-three/fiber";
+import { useGLTF } from "@react-three/drei";
 import { useEffect, useMemo, useRef } from "react";
 import { Matrix4, Mesh, type Object3D } from "three";
 import type { MeshPhysicalMaterial } from "three";
@@ -10,6 +10,7 @@ import { angleAt, segmentMatrices } from "../kinematics/solve";
 import { useViewerStore } from "../store";
 import type { AnatomyModelManifest, LayerId } from "../types";
 import { applyVisual, createLayerMaterial, LAYER_RENDER_ORDER } from "./materials";
+import { setOutline, syncOutlineVisibility } from "./outline";
 import { viewerRuntime } from "./runtime";
 import { usePrefersReducedMotion } from "./usePrefersReducedMotion";
 
@@ -77,6 +78,14 @@ export function AnatomyModel({ manifest, interactive = true }: { manifest: Anato
     return ids.join("|");
   });
 
+  // Contorno da estrutura selecionada e das marcadas com "contorno".
+  useEffect(() => {
+    const ids = new Set(outlined.split("|").filter(Boolean));
+    root.traverse((o) => {
+      if (isMesh(o) && o.userData.structureId) setOutline(o, ids.has(o.name));
+    });
+  }, [outlined, root]);
+
   useFrame((state, delta) => {
     const st = useViewerStore.getState();
     const motion = getMotion(st.animation.id);
@@ -130,7 +139,10 @@ export function AnatomyModel({ manifest, interactive = true }: { manifest: Anato
       if (skinCovers && (mesh.userData.coveredBySkin || layer === "muscles" || layer === "tendons")) visible = false;
       mesh.visible = visible && ls.opacity > 0.01;
       const emphasis = st.selected === id ? 3 : highlightSet.has(id) ? 2 : st.hovered === id ? 1 : 0;
-      applyVisual(mesh.material as MeshPhysicalMaterial, { opacity: isolatedSet ? 1 : ls.opacity, emphasis, dim: false }, emphasis >= 2 ? pulse : 0);
+      const opacity = isolatedSet ? 1 : ls.opacity;
+      applyVisual(mesh.material as MeshPhysicalMaterial, { opacity, emphasis, dim: false }, emphasis >= 2 ? pulse : 0);
+      // Em camadas translúcidas o casco do contorno apareceria como mancha por dentro.
+      syncOutlineVisibility(mesh, opacity >= 0.6);
 
       // Movimento: matriz do segmento × matriz original do nó.
       const seg = mesh.userData.segment as string | null;
@@ -189,24 +201,5 @@ export function AnatomyModel({ manifest, interactive = true }: { manifest: Anato
     st.select(st.selected === id ? null : id);
   };
 
-  return (
-    <>
-      <primitive object={root} onPointerMove={onMove} onPointerOut={onOut} onClick={onClick} />
-      {outlined
-        .split("|")
-        .filter(Boolean)
-        .map((id) => {
-          const mesh = viewerRuntime.meshes.get(id) ?? findMesh(root, id);
-          return mesh ? createPortal(<Outlines key={id} thickness={2.2} screenspace color="#D6B469" />, mesh) : null;
-        })}
-    </>
-  );
-}
-
-function findMesh(root: Object3D, id: string): Mesh | null {
-  let found: Mesh | null = null;
-  root.traverse((o) => {
-    if (!found && isMesh(o) && o.name === id) found = o;
-  });
-  return found;
+  return <primitive object={root} onPointerMove={onMove} onPointerOut={onOut} onClick={onClick} />;
 }

@@ -11,13 +11,16 @@ import { SkeletonHero } from "./SkeletonHero";
 export function HomeHero() {
   const [hover, setHover] = useState<RegionId | null>(null);
   return (
-    <section className="relative min-h-[100svh] overflow-hidden bg-palco-fundo text-palco-texto">
-      <SkeletonHero highlight={hover} className="absolute inset-0 lg:left-[38%]" />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-palco-fundo via-palco-fundo/70 to-transparent lg:via-palco-fundo/40" />
+    <section className="relative overflow-hidden bg-palco-fundo text-palco-texto lg:min-h-[100svh]">
+      {/* Celular: esqueleto numa faixa própria no topo, texto abaixo (sem sobreposição).
+          Desktop: esqueleto à direita, texto à esquerda. */}
+      <SkeletonHero highlight={hover} className="relative h-[52svh] min-h-[340px] w-full lg:absolute lg:inset-0 lg:left-[38%] lg:h-auto lg:w-auto" />
+      <div className="pointer-events-none absolute inset-x-0 top-[calc(52svh-90px)] hidden h-[90px] bg-gradient-to-b from-transparent to-palco-fundo max-lg:block" />
+      <div className="pointer-events-none absolute inset-0 hidden bg-gradient-to-r from-palco-fundo via-palco-fundo/40 to-transparent lg:block" />
 
-      <header className="relative z-10 flex items-center justify-between px-5 pt-5 sm:px-10 sm:pt-7">
-        <LandimLogo tone="dark" className="h-6 w-auto sm:h-7" />
-        <nav className="flex items-center gap-1 text-sm" aria-label="Navegação principal">
+      <header className="absolute inset-x-0 top-0 z-10 flex items-center justify-between bg-gradient-to-b from-palco-fundo/80 to-transparent px-4 pb-6 pt-4 sm:px-10 sm:pt-7 lg:bg-none">
+        <LandimLogo tone="dark" className="h-5 w-auto sm:h-7" />
+        <nav className="-mr-2 flex items-center text-sm" aria-label="Navegação principal">
           <Link href="/atlas" className="rounded-full px-3 py-1.5 text-palco-suave hover:text-palco-texto">
             Regiões
           </Link>
@@ -30,17 +33,17 @@ export function HomeHero() {
         </nav>
       </header>
 
-      <div className="relative z-10 flex min-h-[calc(100svh-80px)] flex-col justify-end px-5 pb-10 pt-[38svh] sm:px-10 lg:max-w-[46%] lg:justify-center lg:pb-16 lg:pt-10">
-        <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.3em] text-landim-ouro">Histórias de Volta · Instituto Landim</p>
+      <div className="relative z-10 -mt-6 flex flex-col px-5 pb-12 sm:px-10 lg:mt-0 lg:min-h-[100svh] lg:max-w-[46%] lg:justify-center lg:pb-16 lg:pt-24">
+        <p className="mb-4 text-[10px] font-semibold uppercase tracking-[0.22em] text-landim-ouro sm:mb-5 sm:text-[11px] sm:tracking-[0.3em]">Histórias de Volta · Instituto Landim</p>
         <Wordmark tone="dark" size="lg" />
-        <h1 className="mt-6 max-w-xl font-serif text-3xl leading-tight text-white sm:text-[2.6rem]">Conheça o corpo por dentro.</h1>
-        <p className="mt-4 max-w-lg text-base leading-relaxed text-palco-texto/85">
+        <h1 className="mt-5 max-w-xl font-serif text-[1.75rem] leading-tight text-white sm:mt-6 sm:text-[2.6rem]">Conheça o corpo por dentro.</h1>
+        <p className="mt-3 max-w-lg text-[15px] leading-relaxed text-palco-texto/85 sm:mt-4 sm:text-base">
           Explore as estruturas envolvidas nos movimentos do dia a dia e entenda, de forma visual, como diferentes regiões do corpo participam das suas
           atividades.
         </p>
 
-        <p className="mt-8 text-sm font-medium text-palco-texto">Qual parte do corpo você gostaria de conhecer melhor?</p>
-        <ul className="mt-3 flex flex-wrap gap-2">
+        <p className="mt-7 text-sm font-medium text-palco-texto sm:mt-8">Qual parte do corpo você gostaria de conhecer melhor?</p>
+        <ul className="mt-3 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
           {AVAILABLE_REGIONS.map((r) => (
             <li key={r.id}>
               <Link
@@ -49,7 +52,7 @@ export function HomeHero() {
                 onMouseLeave={() => setHover(null)}
                 onFocus={() => setHover(r.id)}
                 onBlur={() => setHover(null)}
-                className="inline-flex items-center rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-[15px] font-medium text-white backdrop-blur transition-colors hover:border-landim-ouro hover:bg-landim-ouro hover:text-landim-roxo950"
+                className="flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-5 py-3 text-[15px] font-medium text-white backdrop-blur transition-colors hover:border-landim-ouro hover:bg-landim-ouro hover:text-landim-roxo950 sm:inline-flex sm:py-2.5"
               >
                 {r.label}
               </Link>

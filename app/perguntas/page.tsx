@@ -19,9 +19,9 @@ export default function QuestionsPage() {
             Regiões do corpo
           </Link>
         </header>
-        <section className="mx-auto max-w-6xl px-5 pb-20 pt-6 sm:px-10">
+        <section className="mx-auto max-w-6xl px-4 pb-20 pt-4 sm:px-10 sm:pt-6">
           <p className="text-[11px] font-semibold uppercase tracking-[0.25em] text-landim-ouroTitulo">Corpo em Movimento</p>
-          <h1 className="mt-3 text-4xl font-bold tracking-tight text-landim-roxo700">O que você quer entender melhor?</h1>
+          <h1 className="mt-3 text-[1.7rem] font-bold leading-tight tracking-tight text-landim-roxo700 sm:text-4xl">O que você quer entender melhor?</h1>
           <p className="mt-4 max-w-2xl text-landim-suave">
             Escolha uma pergunta: o modelo abre na região certa, com uma demonstração passo a passo. Depois, você pode explorar livremente.
           </p>

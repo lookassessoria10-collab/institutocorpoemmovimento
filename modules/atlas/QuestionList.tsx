@@ -23,7 +23,7 @@ export function QuestionList({ className = "", showAnswers = false }: { classNam
         <li key={q.id}>
           <Link
             href={`/atlas/${region!.slug}?cena=${scene!.id}`}
-            className="group flex h-full flex-col rounded-landim border border-landim-linha bg-white p-6 transition-shadow hover:shadow-landim"
+            className="group flex h-full flex-col rounded-landim border border-landim-linha bg-white p-5 transition-shadow hover:shadow-landim sm:p-6"
           >
             <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-landim-ouroTitulo">{regionById(q.region)?.label}</span>
             <span className="mt-2 text-lg font-bold leading-snug text-landim-roxo700">{q.text}</span>

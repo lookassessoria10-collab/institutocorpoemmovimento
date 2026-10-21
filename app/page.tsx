@@ -12,10 +12,10 @@ export default function HomePage() {
       <HomeHero />
 
       <main className="bg-landim-creme text-landim-texto">
-        <section className="mx-auto max-w-6xl px-5 py-16 sm:px-10 sm:py-24">
+        <section className="mx-auto max-w-6xl px-4 py-14 sm:px-10 sm:py-24">
           <p className="text-[11px] font-semibold uppercase tracking-[0.25em] text-landim-ouroTitulo">Atlas por regiões</p>
-          <h2 className="mt-3 max-w-2xl text-3xl font-bold tracking-tight text-landim-roxo700 sm:text-4xl">Escolha uma região e explore em camadas.</h2>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <h2 className="mt-3 max-w-2xl text-[1.7rem] font-bold leading-tight tracking-tight text-landim-roxo700 sm:text-4xl">Escolha uma região e explore em camadas.</h2>
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:gap-5 lg:grid-cols-4">
             {AVAILABLE_REGIONS.map((r) => (
               <Link
                 key={r.id}
@@ -32,10 +32,10 @@ export default function HomePage() {
                     loading="lazy"
                   />
                 </div>
-                <div className="p-5">
-                  <h3 className="text-xl font-bold text-landim-roxo700">{r.label}</h3>
-                  <p className="mt-1 text-sm text-landim-suave">{r.tagline}</p>
-                  <span className="mt-4 inline-block text-sm font-semibold text-landim-ouroTexto group-hover:underline">Explorar →</span>
+                <div className="p-3.5 sm:p-5">
+                  <h3 className="text-lg font-bold text-landim-roxo700 sm:text-xl">{r.label}</h3>
+                  <p className="mt-1 text-xs leading-snug text-landim-suave sm:text-sm">{r.tagline}</p>
+                  <span className="mt-3 inline-block text-sm font-semibold text-landim-ouroTexto group-hover:underline sm:mt-4">Explorar →</span>
                 </div>
               </Link>
             ))}
@@ -46,9 +46,9 @@ export default function HomePage() {
         </section>
 
         <section className="bg-landim-creme2">
-          <div className="mx-auto max-w-6xl px-5 py-16 sm:px-10 sm:py-24">
+          <div className="mx-auto max-w-6xl px-4 py-14 sm:px-10 sm:py-24">
             <p className="text-[11px] font-semibold uppercase tracking-[0.25em] text-landim-ouroTitulo">Dúvidas do dia a dia</p>
-            <h2 className="mt-3 text-3xl font-bold tracking-tight text-landim-roxo700 sm:text-4xl">O que você quer entender melhor?</h2>
+            <h2 className="mt-3 text-[1.7rem] font-bold leading-tight tracking-tight text-landim-roxo700 sm:text-4xl">O que você quer entender melhor?</h2>
             <p className="mt-3 max-w-2xl text-landim-suave">
               Cada pergunta abre a região do corpo, posiciona o modelo e apresenta uma explicação geral. As explicações não são diagnóstico: sintomas
               parecidos podem ter causas diferentes.
@@ -57,7 +57,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-6xl px-5 py-16 sm:px-10 sm:py-24">
+        <section className="mx-auto max-w-6xl px-4 py-14 sm:px-10 sm:py-24">
           <h2 className="text-3xl font-bold tracking-tight text-landim-roxo700">Como funciona</h2>
           <ol className="mt-8 grid gap-6 md:grid-cols-3">
             {[

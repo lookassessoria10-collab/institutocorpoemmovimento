@@ -58,7 +58,7 @@ export function StructureCard({
       {publicMode && !canShowPublic(t.reviewStatus) ? (
         <p className="mt-2 text-sm text-palco-suave">Explicação em revisão clínica.</p>
       ) : t.description ? (
-        <p className="mt-2 text-sm leading-relaxed text-palco-texto/90">{t.description}</p>
+        <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-palco-texto/90 sm:line-clamp-none">{t.description}</p>
       ) : (
         <p className="mt-2 text-sm text-palco-suave">Explicação em preparação.</p>
       )}

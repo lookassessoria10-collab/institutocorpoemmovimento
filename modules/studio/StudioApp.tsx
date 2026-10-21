@@ -13,7 +13,7 @@ import { StructuresPanel } from "@/modules/anatomy/ui/StructuresPanel";
 import { viewerRuntime } from "@/modules/anatomy/viewer/runtime";
 import { LandimLogo } from "@/modules/brand/LandimLogo";
 import { applySceneStep } from "@/modules/content/player";
-import { getScene } from "@/modules/content/scenes";
+import { getScene, SCENES } from "@/modules/content/scenes";
 import { regionForModel } from "@/modules/content/validate";
 import { Icon } from "@/modules/ui/Icon";
 import { Notice, StageButton } from "@/modules/ui/controls";
@@ -137,7 +137,7 @@ export function StudioApp({ authMode }: { authMode: "configured" | "dev-local" }
     <div className="flex h-dvh flex-col overflow-hidden bg-[#0B0610] text-palco-texto">
       {/* Barra superior */}
       {!pres && (
-        <header className="flex flex-wrap items-center gap-x-4 gap-y-2 border-b border-white/5 px-4 py-2.5">
+        <header className="flex flex-wrap items-center gap-x-3 gap-y-2 border-b border-white/5 px-3 py-2.5 sm:gap-x-4 sm:px-4">
           <Link href="/" className="flex items-center gap-3" title="Atlas público">
             <LandimLogo tone="dark" className="h-5 w-auto" />
           </Link>
@@ -147,8 +147,10 @@ export function StudioApp({ authMode }: { authMode: "configured" | "dev-local" }
           </span>
           <div className="ml-auto flex flex-wrap items-center gap-2">
             <FormatPicker />
-            <ModePicker />
-            <StageButton icon="expand" label="Iniciar apresentação" onClick={() => studio.set({ presentation: true })} className="border-landim-ouro/50 text-landim-ouroClaro" />
+            <span className="hidden lg:contents">
+              <ModePicker />
+              <StageButton icon="expand" label="Iniciar apresentação" onClick={() => studio.set({ presentation: true })} className="border-landim-ouro/50 text-landim-ouroClaro" />
+            </span>
             {authMode === "configured" ? (
               <form method="post" action="/api/estudio/logout">
                 <StageButton type="submit" label="Sair" />
@@ -195,11 +197,11 @@ export function StudioApp({ authMode }: { authMode: "configured" | "dev-local" }
                 <StageButton compact icon="panelRight" aria-label="Recolher/abrir coluna direita" onClick={() => studio.set({ rightOpen: !studio.rightOpen })} />
               </div>
               {step?.pending && (
-                <div className="absolute left-1/2 top-3 w-[min(90%,460px)] -translate-x-1/2">
+                <div className="absolute left-1/2 top-3 hidden w-[min(90%,460px)] -translate-x-1/2 lg:block">
                   <Notice tone="pending">Passo pendente (não vai como demonstração concluída): {step.pending}</Notice>
                 </div>
               )}
-              <div className="absolute bottom-3 left-3 max-w-sm">
+              <div className="absolute bottom-3 left-3 hidden max-w-sm lg:block">
                 <StructureCard manifest={manifest} technical />
               </div>
             </>
@@ -231,7 +233,7 @@ export function StudioApp({ authMode }: { authMode: "configured" | "dev-local" }
 
       {/* Barra inferior */}
       {!pres && (
-        <footer className="space-y-2 border-t border-white/5 bg-palco-fundo px-4 py-2.5">
+        <footer className="hidden space-y-2 border-t border-white/5 bg-palco-fundo px-4 py-2.5 lg:block">
           <StepStrip scene={scene} />
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="min-w-[280px] flex-1">
@@ -244,15 +246,38 @@ export function StudioApp({ authMode }: { authMode: "configured" | "dev-local" }
 
       <PreviewModal onDownload={recording.download} onDiscard={recording.discard} />
 
-      {/* Celular: o estúdio prioriza o computador */}
-      <div className="pointer-events-none fixed inset-x-3 bottom-3 z-40 lg:hidden">
-        <div className="pointer-events-auto rounded-2xl border border-white/10 bg-palco-painel/95 p-3 text-xs text-palco-suave">
-          O estúdio é otimizado para computador. No celular, use para prévia das cenas.
-          <div className="mt-2">
-            <StepStrip scene={scene} compact />
-          </div>
-        </div>
-      </div>
+      {/* Celular: prévia das cenas (edição e gravação ficam no computador) */}
+      {!pres && <MobilePreviewBar sceneId={studio.sceneId} />}
+    </div>
+  );
+}
+
+/** Barra do celular, no fluxo da página: escolha de cena, passos, movimento e aviso. */
+function MobilePreviewBar({ sceneId }: { sceneId: string | null }) {
+  const scene = getScene(sceneId);
+  const animId = useViewerStore((s) => s.animation.id);
+  return (
+    <div className="space-y-2.5 border-t border-white/5 bg-palco-fundo px-3 pb-[calc(12px+env(safe-area-inset-bottom))] pt-2.5 lg:hidden">
+      <label className="block">
+        <span className="sr-only">Cena</span>
+        <select
+          value={sceneId ?? ""}
+          onChange={(e) => useStudioStore.getState().setScene(e.target.value || null, 0)}
+          className="w-full rounded-xl border border-white/10 bg-palco-painel px-3 py-2.5 text-sm text-palco-texto"
+        >
+          <option value="">Exploração livre</option>
+          {SCENES.map((s) => (
+            <option key={s.id} value={s.id}>
+              {String(s.number).padStart(2, "0")} · {s.title}
+            </option>
+          ))}
+        </select>
+      </label>
+      {scene && <StepStrip scene={scene} compact />}
+      {animId && <MotionTimeline dense />}
+      <p className="text-[11px] leading-relaxed text-palco-suave">
+        No celular o estúdio funciona como prévia. Painéis de edição, anotações e gravação ficam disponíveis no computador.
+      </p>
     </div>
   );
 }

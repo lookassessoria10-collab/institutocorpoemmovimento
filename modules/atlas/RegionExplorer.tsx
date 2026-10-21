@@ -120,7 +120,12 @@ export function RegionExplorer({ regionId }: { regionId: RegionId }) {
 
   return (
     <main className="relative h-dvh w-full overflow-hidden bg-palco-fundo text-palco-texto">
-      <div className="absolute inset-0">
+      {/* No celular o palco termina acima dos controles: o modelo fica centrado na área visível. */}
+      <div
+        className={`absolute inset-x-0 top-0 transition-[bottom] duration-300 ease-suave lg:bottom-0 ${
+          sheetOpen ? "bottom-[calc(60dvh+44px)]" : "bottom-[calc(112px+env(safe-area-inset-bottom))]"
+        }`}
+      >
         <AnatomyStage
           manifest={manifest}
           presets={region.cameraPresets}
@@ -139,10 +144,10 @@ export function RegionExplorer({ regionId }: { regionId: RegionId }) {
           <Link href="/" aria-label="Início do Corpo em Movimento" className="flex items-center gap-3">
             <LandimLogo tone="dark" className="h-5 w-auto sm:h-6" />
           </Link>
-          <span className="hidden h-6 w-px bg-white/15 sm:block" />
-          <div className="hidden sm:block">
-            <p className="text-[11px] uppercase tracking-[0.22em] text-landim-ouro">Corpo em Movimento</p>
-            <h1 className="text-lg font-semibold leading-tight">{region.label}</h1>
+          <span className="h-6 w-px bg-white/15" />
+          <div>
+            <p className="hidden text-[11px] uppercase tracking-[0.22em] text-landim-ouro sm:block">Corpo em Movimento</p>
+            <h1 className="text-base font-semibold leading-tight sm:text-lg">{region.label}</h1>
           </div>
         </div>
         <nav className="pointer-events-auto flex items-center gap-1 text-sm" aria-label="Navegação">
@@ -167,35 +172,53 @@ export function RegionExplorer({ regionId }: { regionId: RegionId }) {
         <ViewToolbar presets={region.cameraPresets} />
       </div>
 
-      {/* Ficha da estrutura */}
+      {/* Ficha da estrutura (desktop) */}
       {selected && (
-        <div className={`absolute z-20 ${sheetOpen ? "bottom-[62vh]" : "bottom-[172px]"} left-3 right-3 flex justify-center lg:bottom-6 lg:left-auto lg:right-6 lg:justify-end`}>
+        <div className="absolute bottom-6 right-6 z-20 hidden lg:block">
           <StructureCard manifest={manifest} publicMode />
         </div>
       )}
 
       {/* Cena em andamento */}
-      {scene && <ScenePlayerBar scene={scene} step={step} onStep={(i) => { setStep(i); applySceneStep(scene, i); }} onExit={exitScene} />}
+      {scene && (
+        <ScenePlayerBar
+          scene={scene}
+          step={step}
+          compact={sheetOpen}
+          onStep={(i) => {
+            setStep(i);
+            applySceneStep(scene, i);
+          }}
+          onExit={exitScene}
+        />
+      )}
 
-      {/* Avisos do palco */}
-      <div className="pointer-events-none absolute bottom-[172px] left-1/2 z-10 flex w-[min(92vw,520px)] -translate-x-1/2 flex-col items-center gap-2 lg:bottom-6">
-        {pain && <Notice tone="pain">{APP_CONFIG.copy.painDisclaimer}</Notice>}
-        {moving && !selected && (
-          <span className="rounded-full border border-white/10 bg-palco-painel/80 px-3 py-1 text-[11px] text-palco-suave backdrop-blur">
-            Durante o movimento, mostramos os ossos: músculos e pele deste modelo não se deformam.
-          </span>
-        )}
+      {/* Avisos do palco (desktop) */}
+      <div className="pointer-events-none absolute bottom-6 left-1/2 z-10 hidden w-[min(92vw,520px)] -translate-x-1/2 flex-col items-center gap-2 lg:flex">
+        <StageNotices pain={Boolean(pain)} moving={moving && !selected} />
       </div>
 
-      {/* Celular: vistas + folha inferior */}
-      <div className="absolute inset-x-0 bottom-0 z-30 lg:hidden">
-        <div className="no-scrollbar mb-2 flex gap-1.5 overflow-x-auto px-3">
-          <ViewToolbar presets={region.cameraPresets.filter((p) => ["frente", "lateral", "posterior"].includes(p.id) || p.id === "geral")} orientation="horizontal" />
+      {/* Celular: avisos e ficha → vistas → folha inferior, empilhados sem sobreposição */}
+      <div className="absolute inset-x-0 bottom-0 z-30 flex flex-col lg:hidden">
+        <div className="pointer-events-none flex flex-col gap-2 px-3 pb-2">
+          <StageNotices pain={Boolean(pain)} moving={moving && !selected} />
+          {selected && !sheetOpen && (
+            <div className="pointer-events-auto">
+              <StructureCard manifest={manifest} publicMode className="max-w-none" />
+            </div>
+          )}
         </div>
-        <div className={`rounded-t-3xl border-t border-white/10 bg-palco-painel/95 backdrop-blur transition-[height] duration-300 ease-suave ${sheetOpen ? "h-[60vh]" : "h-[64px]"}`}>
+        <div className="no-scrollbar flex gap-1.5 overflow-x-auto px-3 pb-2">
+          <ViewToolbar presets={region.cameraPresets} compact />
+        </div>
+        <div
+          className={`flex flex-col rounded-t-3xl border-t border-white/10 bg-palco-painel/95 pb-[env(safe-area-inset-bottom)] backdrop-blur transition-[height] duration-300 ease-suave ${
+            sheetOpen ? "h-[60dvh]" : "h-[64px]"
+          }`}
+        >
           <button
             type="button"
-            className="mx-auto block w-full pt-2"
+            className="mx-auto block w-full shrink-0 pt-2"
             aria-expanded={sheetOpen}
             aria-label={sheetOpen ? "Recolher painel" : "Abrir painel"}
             onClick={() => setSheetOpen((v) => !v)}
@@ -205,11 +228,24 @@ export function RegionExplorer({ regionId }: { regionId: RegionId }) {
           <Tabs
             tab={tab}
             setTab={(t) => {
-              setTab(t);
-              setSheetOpen(true);
+              if (sheetOpen && t === tab) setSheetOpen(false);
+              else {
+                setTab(t);
+                setSheetOpen(true);
+              }
             }}
           />
-          {sheetOpen && <div className="h-[calc(60vh-80px)] overflow-y-auto px-4 pb-8 pt-3">{panel}</div>}
+          {sheetOpen && (
+            <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-6 pt-3">
+              {selected && (
+                <div className="mb-5">
+                  <StructureCard manifest={manifest} publicMode className="max-w-none border-landim-ouro/30" />
+                </div>
+              )}
+              {panel}
+              <p className="mt-6 text-[10px] leading-relaxed text-palco-suave">{APP_CONFIG.copy.disclaimer}</p>
+            </div>
+          )}
         </div>
       </div>
     </main>
@@ -352,22 +388,52 @@ function LearnPanel({
   );
 }
 
-function ScenePlayerBar({ scene, step, onStep, onExit }: { scene: Scene; step: number; onStep: (i: number) => void; onExit: () => void }) {
+function StageNotices({ pain, moving }: { pain: boolean; moving: boolean }) {
+  return (
+    <>
+      {pain && <Notice tone="pain">{APP_CONFIG.copy.painDisclaimer}</Notice>}
+      {moving && (
+        <span className="self-center rounded-full border border-white/10 bg-palco-painel/80 px-3 py-1 text-center text-[11px] text-palco-suave backdrop-blur">
+          Durante o movimento, mostramos os ossos: músculos e pele deste modelo não se deformam.
+        </span>
+      )}
+    </>
+  );
+}
+
+function ScenePlayerBar({
+  scene,
+  step,
+  compact,
+  onStep,
+  onExit,
+}: {
+  scene: Scene;
+  step: number;
+  /** Celular com o painel aberto: só título e navegação, para não cobrir o modelo. */
+  compact: boolean;
+  onStep: (i: number) => void;
+  onExit: () => void;
+}) {
   const s = scene.steps[step];
   return (
-    <div className="absolute left-1/2 top-20 z-20 w-[min(94vw,560px)] -translate-x-1/2 rounded-2xl border border-white/10 bg-palco-painel/90 p-4 shadow-landim backdrop-blur lg:top-24">
+    <div className="absolute left-3 right-3 top-[60px] z-20 rounded-2xl border border-white/10 bg-palco-painel/90 p-3 shadow-landim backdrop-blur sm:p-4 lg:left-1/2 lg:right-auto lg:top-24 lg:w-[560px] lg:-translate-x-1/2">
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <p className="text-[11px] uppercase tracking-[0.16em] text-landim-ouro">
             Cena {String(scene.number).padStart(2, "0")} · {step + 1}/{scene.steps.length} · {s.label}
           </p>
-          <h2 className="mt-1 text-[15px] font-semibold leading-snug">{scene.title}</h2>
+          <h2 className="mt-1 text-sm font-semibold leading-snug sm:text-[15px]">{scene.title}</h2>
         </div>
         <button type="button" onClick={onExit} className="shrink-0 rounded-full border border-white/10 px-3 py-1 text-xs hover:border-white/30">
           Explorar livremente
         </button>
       </div>
-      {s.publicText && <p className="mt-2 text-sm leading-relaxed text-palco-texto/90">{s.publicText}</p>}
+      {s.publicText && (
+        <p className={`mt-2 max-h-[22dvh] overflow-y-auto text-[13px] leading-relaxed text-palco-texto/90 sm:text-sm lg:max-h-none ${compact ? "hidden lg:block" : ""}`}>
+          {s.publicText}
+        </p>
+      )}
       {s.pending && (
         <div className="mt-2">
           <Notice tone="pending">{s.pending}</Notice>
@@ -402,7 +468,7 @@ function ScenePlayerBar({ scene, step, onStep, onExit }: { scene: Scene; step: n
           Próximo <Icon name="chevronRight" />
         </button>
       </div>
-      <p className="mt-2 text-[10px] text-palco-suave">Conteúdo educativo em revisão clínica. Não substitui avaliação profissional.</p>
+      <p className="mt-2 hidden text-[10px] text-palco-suave sm:block">Conteúdo educativo em revisão clínica. Não substitui avaliação profissional.</p>
     </div>
   );
 }

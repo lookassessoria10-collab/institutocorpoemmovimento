@@ -62,6 +62,13 @@ export function CameraDirector({
   const tween = useRef<Tween | null>(null);
   const request = useViewerStore((s) => s.camera);
   const aspect = frameAspect ?? size.width / Math.max(1, size.height);
+  // Proporção usada nos pedidos de câmera. Fora do estúdio, redimensionar o
+  // canvas (ex.: abrir o painel no celular) não descarta o ângulo escolhido.
+  const aspectRef = useRef(aspect);
+  aspectRef.current = aspect;
+  const reframeKey = frameAspect ?? 0;
+  // Limites de zoom ficam estáveis entre pequenos redimensionamentos.
+  const limitAspect = frameAspect ?? Math.round(aspect * 4) / 4;
 
   const bounds = useMemo(() => {
     const b = new Box3(new Vector3(...manifest.bounds.min), new Vector3(...manifest.bounds.max));
@@ -73,8 +80,8 @@ export function CameraDirector({
     if (!c) return;
     viewerRuntime.controls = c;
     const radius = Math.max(...presets.map((p) => p.radius), manifest.focusRadius * 0.6);
-    c.minDistance = fitDistance(0.03, CAMERA_FOV, aspect);
-    c.maxDistance = fitDistance(radius * 1.8, CAMERA_FOV, aspect);
+    c.minDistance = fitDistance(0.03, CAMERA_FOV, limitAspect);
+    c.maxDistance = fitDistance(radius * 1.8, CAMERA_FOV, Math.min(limitAspect, 1));
     c.setBoundary(bounds);
     c.boundaryEnclosesCamera = false;
     c.dollyToCursor = true;
@@ -86,7 +93,7 @@ export function CameraDirector({
     return () => {
       if (viewerRuntime.controls === c) viewerRuntime.controls = null;
     };
-  }, [bounds, presets, manifest.focusRadius, aspect]);
+  }, [bounds, presets, manifest.focusRadius, limitAspect]);
 
   // Pedido de preset (botões, cenas, perguntas).
   useEffect(() => {
@@ -94,7 +101,7 @@ export function CameraDirector({
     if (!c) return;
     const preset = presets.find((p) => p.id === request.presetId) ?? presets[0];
     if (!preset) return;
-    const pose = presetPose(preset, manifest, aspect, side);
+    const pose = presetPose(preset, manifest, aspectRef.current, side);
     const toTarget = new Vector3(...pose.target);
     const toPos = new Vector3(...pose.position);
     const duration = reduced ? 0 : request.durationMs;
@@ -113,9 +120,9 @@ export function CameraDirector({
       start: performance.now(),
       duration,
     };
-    // `aspect` entra para reenquadrar quando o formato do vídeo muda.
+    // reframeKey: no estúdio, trocar o formato do vídeo reenquadra a cena.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [request.seq, request.presetId, aspect]);
+  }, [request.seq, request.presetId, reframeKey]);
 
   useEffect(() => {
     (camera as PerspectiveCamera).fov = CAMERA_FOV;
